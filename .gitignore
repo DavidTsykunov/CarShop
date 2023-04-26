@@ -1228,8 +1228,6 @@ Shop/Shop/Shop.iOS/Shop.iOS.csproj
 Shop/Shop/Shop/App.xaml
 Shop/Shop/Shop/App.xaml.cs
 Shop/Shop/Shop/AssemblyInfo.cs
-Shop/Shop/Shop/MainPage.xaml
-Shop/Shop/Shop/MainPage.xaml.cs
 Shop/Shop/Shop/obj/Debug/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs
 Shop/Shop/Shop/obj/Debug/netstandard2.0/Shop.AssemblyInfo.cs
 Shop/Shop/Shop/obj/Debug/netstandard2.0/Shop.AssemblyInfoInputs.cache
@@ -1248,3 +1246,5 @@ Shop/Shop/Shop/obj/Debug/netstandard2.0/App.xaml.g.cs
 Shop/Shop/Shop/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 Shop/Shop/Shop/obj/Debug/netstandard2.0/Shop.assets.cache
 Shop/Shop/Shop/obj/Debug/netstandard2.0/Shop.csproj.AssemblyReference.cache
+Shop/.vs/Shop/v16/TestStore/0/testlog.manifest
+Shop/.vs/Shop/v16/TestStore/0/000.testlog
