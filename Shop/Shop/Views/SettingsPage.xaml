@@ -4,9 +4,20 @@
              x:Class="Shop.Views.SettingsPage"
              Title="SettingsPage">
     <VerticalStackLayout>
-        <Label 
-            Text="Пользователь иконки от Darwisy Alfarizi - Flaticon"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Пользователь иконки от Darwisy Alfarizi - Flaticon"
+                  TextColor="Blue"
+                  TextDecorations="Underline">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding TapCommand}"
+                                          CommandParameter="https://www.flaticon.com/ru/free-icons/" />
+                        </Span.GestureRecognizers>
+                    </Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
     </VerticalStackLayout>
 </ContentPage>

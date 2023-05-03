@@ -21,13 +21,13 @@
 
     <TabBar>
         <Tab Title="Главная"
-             Icon="lupaicon.png">
+             Icon="profileicon.png">
             <ShellContent  ContentTemplate="{DataTemplate local:MainPage}"/>
+
         </Tab>
         <Tab Title="Профиль"
-             Icon="profileicon.png">
+             Icon="magnifiericon.png">
             <ShellContent ContentTemplate="{DataTemplate views:ProfilePage}" />
-            <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}" />
         </Tab>
     </TabBar>
 
