@@ -3,9 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Shop.Views.ProfilePage"
              Title="Профиль">
-    <VerticalStackLayout>
+    <VerticalStackLayout BackgroundColor="Red">
         <Image Source="profileicon.png" MaximumHeightRequest="100" MinimumHeightRequest="50"
                MaximumWidthRequest="100" MinimumWidthRequest="50" />
+
+        <Image Source="profileicon.png" MaximumHeightRequest="100" MinimumHeightRequest="50"
+               MaximumWidthRequest="100" MinimumWidthRequest="50"/>
+
         <Label 
             Text="Имя: "
             VerticalOptions="Center" 

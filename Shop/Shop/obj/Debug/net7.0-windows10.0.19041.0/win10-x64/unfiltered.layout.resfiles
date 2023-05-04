@@ -1,4 +1,3 @@
-materialdesignicons-webfont.ttf
 OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
 appicon.ico
@@ -47,12 +46,15 @@ appiconWideTile.scale-125.png
 appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
-cat.scale-100.png
+dog.scale-100.png
+dog2.scale-100.png
 dotnet_bot.scale-100.png
 dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
+lupa.scale-100.png
+lupa2.scale-100.png
 profileicon.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
