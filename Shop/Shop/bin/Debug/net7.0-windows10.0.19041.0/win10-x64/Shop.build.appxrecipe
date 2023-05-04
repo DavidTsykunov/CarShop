@@ -889,6 +889,21 @@
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa2.scale-100.png">
       <PackagePath>lupa2.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa2.scale-125.png">
+      <PackagePath>lupa2.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa2.scale-150.png">
+      <PackagePath>lupa2.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa2.scale-200.png">
+      <PackagePath>lupa2.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa2.scale-400.png">
+      <PackagePath>lupa2.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa3.scale-100.png">
+      <PackagePath>lupa3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\profileicon.scale-100.png">
       <PackagePath>profileicon.scale-100.png</PackagePath>
     </AppxPackagedFile>

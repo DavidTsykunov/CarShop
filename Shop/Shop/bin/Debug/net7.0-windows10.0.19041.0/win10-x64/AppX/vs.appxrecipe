@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-04T08:43:12.294</Modified>
+      <Modified>2023-05-04T09:23:49.814</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-04T08:43:11.729</Modified>
+      <Modified>2023-05-04T09:23:49.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Shop.runtimeconfig.json">
       <PackagePath>Shop.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Shop.dll">
       <PackagePath>Shop.dll</PackagePath>
-      <Modified>2023-05-04T08:43:10.226</Modified>
+      <Modified>2023-05-04T09:23:46.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Shop.exe</PackagePath>
-      <Modified>2023-05-04T08:43:10.247</Modified>
+      <Modified>2023-05-04T09:23:46.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -919,7 +919,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Shop.deps.json">
       <PackagePath>Shop.deps.json</PackagePath>
-      <Modified>2023-05-04T08:43:12.068</Modified>
+      <Modified>2023-05-04T09:23:49.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.81\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -967,187 +967,187 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-05-04T08:43:04.282</Modified>
+      <Modified>2023-05-04T09:23:31.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.704</Modified>
+      <Modified>2023-05-04T09:23:31.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.729</Modified>
+      <Modified>2023-05-04T09:23:31.698</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.746</Modified>
+      <Modified>2023-05-04T09:23:31.714</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.773</Modified>
+      <Modified>2023-05-04T09:23:31.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.912</Modified>
+      <Modified>2023-05-04T09:23:31.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.375</Modified>
+      <Modified>2023-05-04T09:23:31.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.379</Modified>
+      <Modified>2023-05-04T09:23:31.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.401</Modified>
+      <Modified>2023-05-04T09:23:31.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.382</Modified>
+      <Modified>2023-05-04T09:23:31.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.387</Modified>
+      <Modified>2023-05-04T09:23:31.404</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.348</Modified>
+      <Modified>2023-05-04T09:23:31.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.352</Modified>
+      <Modified>2023-05-04T09:23:31.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.371</Modified>
+      <Modified>2023-05-04T09:23:31.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.356</Modified>
+      <Modified>2023-05-04T09:23:31.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.361</Modified>
+      <Modified>2023-05-04T09:23:31.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.293</Modified>
+      <Modified>2023-05-04T09:23:31.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.297</Modified>
+      <Modified>2023-05-04T09:23:31.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.302</Modified>
+      <Modified>2023-05-04T09:23:31.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.308</Modified>
+      <Modified>2023-05-04T09:23:31.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.317</Modified>
+      <Modified>2023-05-04T09:23:31.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.321</Modified>
+      <Modified>2023-05-04T09:23:31.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.326</Modified>
+      <Modified>2023-05-04T09:23:31.342</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.344</Modified>
+      <Modified>2023-05-04T09:23:31.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.330</Modified>
+      <Modified>2023-05-04T09:23:31.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.334</Modified>
+      <Modified>2023-05-04T09:23:31.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.500</Modified>
+      <Modified>2023-05-04T09:23:31.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.510</Modified>
+      <Modified>2023-05-04T09:23:31.501</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.521</Modified>
+      <Modified>2023-05-04T09:23:31.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.535</Modified>
+      <Modified>2023-05-04T09:23:31.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.565</Modified>
+      <Modified>2023-05-04T09:23:31.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.446</Modified>
+      <Modified>2023-05-04T09:23:31.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.452</Modified>
+      <Modified>2023-05-04T09:23:31.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.458</Modified>
+      <Modified>2023-05-04T09:23:31.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.476</Modified>
+      <Modified>2023-05-04T09:23:31.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.490</Modified>
+      <Modified>2023-05-04T09:23:31.476</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.407</Modified>
+      <Modified>2023-05-04T09:23:31.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.413</Modified>
+      <Modified>2023-05-04T09:23:31.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.420</Modified>
+      <Modified>2023-05-04T09:23:31.428</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.428</Modified>
+      <Modified>2023-05-04T09:23:31.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.439</Modified>
+      <Modified>2023-05-04T09:23:31.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.573</Modified>
+      <Modified>2023-05-04T09:23:31.567</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.583</Modified>
+      <Modified>2023-05-04T09:23:31.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.596</Modified>
+      <Modified>2023-05-04T09:23:31.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.617</Modified>
+      <Modified>2023-05-04T09:23:31.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.685</Modified>
+      <Modified>2023-05-04T09:23:31.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dog.scale-100.png">
       <PackagePath>dog.scale-100.png</PackagePath>
@@ -1159,23 +1159,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.285</Modified>
+      <Modified>2023-05-04T09:23:31.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.300</Modified>
+      <Modified>2023-05-04T09:23:31.241</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.322</Modified>
+      <Modified>2023-05-04T09:23:31.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.358</Modified>
+      <Modified>2023-05-04T09:23:31.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-05-04T08:43:04.458</Modified>
+      <Modified>2023-05-04T09:23:31.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa.scale-100.png">
       <PackagePath>lupa.scale-100.png</PackagePath>
@@ -1183,7 +1183,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa2.scale-100.png">
       <PackagePath>lupa2.scale-100.png</PackagePath>
-      <Modified>2023-05-04T08:43:03.256</Modified>
+      <Modified>2023-05-04T09:23:31.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa2.scale-125.png">
+      <PackagePath>lupa2.scale-125.png</PackagePath>
+      <Modified>2023-05-04T09:23:31.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa2.scale-150.png">
+      <PackagePath>lupa2.scale-150.png</PackagePath>
+      <Modified>2023-05-04T09:23:31.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa2.scale-200.png">
+      <PackagePath>lupa2.scale-200.png</PackagePath>
+      <Modified>2023-05-04T09:23:31.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa2.scale-400.png">
+      <PackagePath>lupa2.scale-400.png</PackagePath>
+      <Modified>2023-05-04T09:23:31.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa3.scale-100.png">
+      <PackagePath>lupa3.scale-100.png</PackagePath>
+      <Modified>2023-05-04T09:06:10.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\profileicon.scale-100.png">
       <PackagePath>profileicon.scale-100.png</PackagePath>

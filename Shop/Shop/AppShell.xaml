@@ -21,7 +21,7 @@
 
     <TabBar>
         <Tab Title="поиск"
-             Icon="lupa3.png">
+             Icon="lupa2.png">
             <ShellContent  ContentTemplate="{DataTemplate local:MainPage}"/>
 
         </Tab>
