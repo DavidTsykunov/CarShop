@@ -718,6 +718,9 @@
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\materialdesignicons-webfont.ttf">
+      <PackagePath>materialdesignicons-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
