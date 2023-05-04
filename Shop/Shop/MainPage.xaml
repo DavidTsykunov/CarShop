@@ -11,7 +11,7 @@
             VerticalOptions="Center">
 
             <Image
-                Source="lupa.png"
+                Source="dog2.png"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
                 HeightRequest="200"
                 HorizontalOptions="Center" />
