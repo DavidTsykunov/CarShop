@@ -44,6 +44,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Shop.Resources.Styles.Styl
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/david/Documents/GitHub/CarShop/Shop/Shop/Views/AddCarPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Shop.Views.AddCarPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddCarPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddCarPage.xaml
+
 [C:/Users/david/Documents/GitHub/CarShop/Shop/Shop/Views/ProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Shop.Views.ProfilePage.xaml

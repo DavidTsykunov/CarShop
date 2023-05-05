@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{E3B8E8A6-1847-4FA4-B43D-CF9B5265891D}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.ItemProperties.Shop PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shop/Views/AddCarPage.xaml.cs">
+    <Files>
+      <File FileName="Shop/MainPage.xaml" Line="7" Column="5" />
+      <File FileName="Shop/Views/SettingsPage.xaml" />
+      <File FileName="Shop/Views/ProfilePage.xaml" />
+      <File FileName="Shop/MauiProgram.cs" />
+      <File FileName="Shop/Views/SettingsPage.xaml.cs" />
+      <File FileName="Shop/MainPage.xaml.cs" Line="5" Column="16" />
+      <File FileName="Shop/AppShell.xaml.cs" Line="1" Column="1" />
+      <File FileName="Shop/Views/AddCarPage.xaml" Line="19" Column="9" />
+      <File FileName="Shop/Views/AddCarPage.xaml.cs" Line="5" Column="9" />
+      <File FileName="Shop/AppShell.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Shop" expanded="True">
+            <Node name="Shop" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="AddCarPage.xaml" expanded="True">
+                  <Node name="AddCarPage.xaml.cs" selected="True" />
+                </Node>
+                <Node name="SettingsPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

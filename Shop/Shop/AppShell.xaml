@@ -20,12 +20,15 @@
     </Shell.Resources>
 
     <TabBar>
-        <Tab Title="поиск"
+        <Tab Title="Поиск"
              Icon="search.png">
             <ShellContent  ContentTemplate="{DataTemplate local:MainPage}"/>
-
         </Tab>
-        <Tab Title="профиль"
+        <Tab Title="Добавить"
+             Icon="addcaricon.png">
+            <ShellContent  ContentTemplate="{DataTemplate views:AddCarPage}"/>
+        </Tab>
+        <Tab Title="Профиль"
              Icon="profile.svg">
             <ShellContent ContentTemplate="{DataTemplate views:ProfilePage}" />
         </Tab>
