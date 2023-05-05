@@ -12,46 +12,52 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Shop
-build_property.ProjectDir = C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\
+build_property.ProjectDir = /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/
 
-[C:/Users/david/Documents/GitHub/CarShop/Shop/Shop/App.xaml]
+[/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Shop.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/david/Documents/GitHub/CarShop/Shop/Shop/AppShell.xaml]
+[/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Shop.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/david/Documents/GitHub/CarShop/Shop/Shop/MainPage.xaml]
+[/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Shop.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/david/Documents/GitHub/CarShop/Shop/Shop/Resources/Styles/Colors.xaml]
+[/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Shop.Resources.Styles.Colors.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
 
-[C:/Users/david/Documents/GitHub/CarShop/Shop/Shop/Resources/Styles/Styles.xaml]
+[/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Shop.Resources.Styles.Styles.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
 
-[C:/Users/david/Documents/GitHub/CarShop/Shop/Shop/Views/ProfilePage.xaml]
+[/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/Views/AddCarPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Shop.Views.AddCarPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/AddCarPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/AddCarPage.xaml
+
+[/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/Views/ProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Shop.Views.ProfilePage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\ProfilePage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/ProfilePage.xaml
 
-[C:/Users/david/Documents/GitHub/CarShop/Shop/Shop/Views/SettingsPage.xaml]
+[/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/Views/SettingsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Shop.Views.SettingsPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\SettingsPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\SettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/SettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/SettingsPage.xaml

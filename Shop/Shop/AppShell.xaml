@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
 
 <Shell
     x:Class="Shop.AppShell"
@@ -20,13 +20,18 @@
     </Shell.Resources>
 
     <TabBar>
-        <Tab Title="поиск"
-             Icon="Icons/search.png">
+        <Tab Title="Поиск"
+             Icon="search.png">
             <ShellContent  ContentTemplate="{DataTemplate local:MainPage}"/>
 
         </Tab>
-        <Tab Title="профиль"
-             Icon="Icons/profile.png">
+        <Tab Title="Добавить"
+             Icon="search.png">
+            <ShellContent  ContentTemplate="{DataTemplate veiws:AddCarPage}"/>
+
+        </Tab>
+        <Tab Title="Профиль"
+             Icon="profile.png">
             <ShellContent ContentTemplate="{DataTemplate views:ProfilePage}" />
         </Tab>
     </TabBar>
