@@ -26,7 +26,7 @@
 
         </Tab>
         <Tab Title="профиль"
-             Icon="profile.png">
+             Icon="profile.svg">
             <ShellContent ContentTemplate="{DataTemplate views:ProfilePage}" />
         </Tab>
     </TabBar>
