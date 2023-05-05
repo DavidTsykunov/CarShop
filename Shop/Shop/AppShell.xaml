@@ -21,12 +21,12 @@
 
     <TabBar>
         <Tab Title="поиск"
-             Icon="Icons/search.png">
+             Icon="search.png">
             <ShellContent  ContentTemplate="{DataTemplate local:MainPage}"/>
 
         </Tab>
         <Tab Title="профиль"
-             Icon="Icons/profile.png">
+             Icon="profile.png">
             <ShellContent ContentTemplate="{DataTemplate views:ProfilePage}" />
         </Tab>
     </TabBar>

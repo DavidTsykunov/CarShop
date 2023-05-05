@@ -4,14 +4,15 @@
              x:Class="Shop.MainPage"
              Title="Главная">
 
-    <ScrollView>
+    <ScrollView
+        BackgroundColor="#a08be8">
         <VerticalStackLayout
             Spacing="25"
             Padding="30,0"
             VerticalOptions="Center">
 
             <Image
-                Source="dotnet_bot.png"
+                Source="dog.png"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
                 HeightRequest="200"
                 HorizontalOptions="Center" />
