@@ -29,7 +29,7 @@
             <ShellContent  ContentTemplate="{DataTemplate views:AddCarPage}"/>
         </Tab>
         <Tab Title="Профиль"
-             Icon="profile.svg">
+             Icon="profile.png">
             <ShellContent ContentTemplate="{DataTemplate views:ProfilePage}" />
         </Tab>
     </TabBar>

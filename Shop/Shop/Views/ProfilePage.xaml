@@ -6,10 +6,23 @@
     <VerticalStackLayout 
         BackgroundColor="#a08be8">
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Вы не зарегестрировались!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Image Source="profile.svg" />
+
+        <HorizontalStackLayout Spacing="15">
+            <Entry TextColor="Black" BackgroundColor="White" x:Name="TitleEntry" Placeholder="Что-то нужно сделать..." />
+            <Button Clicked="OnBtnClciked" Text="Зарегестрироваться" />
+        </HorizontalStackLayout>
+        
+        <CollectionView ItemsSource="{Binding TodoItems}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding Title}" />
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
 
     </VerticalStackLayout>
 </ContentPage>
