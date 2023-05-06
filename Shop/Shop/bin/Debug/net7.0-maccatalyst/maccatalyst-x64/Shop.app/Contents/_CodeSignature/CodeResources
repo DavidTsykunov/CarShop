@@ -28,10 +28,32 @@
 		<data>
 		JqTbsVJEVRdBiQ4S6+9T3o2+ITw=
 		</data>
+<<<<<<< Updated upstream
+=======
+		<key>Resources/addcaricon.png</key>
+		<data>
+		Eznxks5F9TBRaw4jhWU0RW2PgE0=
+		</data>
+		<key>Resources/addcaricon@2x.png</key>
+		<data>
+		mJNTAXOtJNnuXCNYi1GE3haiLuc=
+		</data>
+		<key>Resources/addcaricon@3x.png</key>
+		<data>
+		G6exmT89YLdzZNFDUHuuzk9dA5A=
+		</data>
+>>>>>>> Stashed changes
 		<key>Resources/appicon.icns</key>
 		<data>
 		L9cHAOVSlaW2jMaBgy7GlIBZdZg=
 		</data>
+<<<<<<< Updated upstream
+=======
+		<key>Resources/dog.png</key>
+		<data>
+		IjabxEc/R8IsGRUvA7ernEjv9C8=
+		</data>
+>>>>>>> Stashed changes
 		<key>Resources/dotnet_bot.png</key>
 		<data>
 		qdYiPSemWrpOK00y89PG6ukhmkA=
@@ -46,7 +68,11 @@
 		</data>
 		<key>Resources/profile.png</key>
 		<data>
+<<<<<<< Updated upstream
 		aDLzx+fG5Sq8eo4IGSuLe2vPhsI=
+=======
+		eHszhIpeVdQfCxxTpL2RtgzWW2U=
+>>>>>>> Stashed changes
 		</data>
 		<key>Resources/profile@2x.png</key>
 		<data>
@@ -145,7 +171,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			bMvbPWCdkH0Oup+YiITdijjBnQ6cIc1gl4CLdKECJYw=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Maui.Controls.Compatibility.dll</key>
@@ -166,7 +196,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			njT7/eedgDnjXVsphlreH1Vn6LJbtPccKwE8NoRX5m4=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Maui.Essentials.dll</key>
@@ -194,63 +228,99 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			u68kw7HM8sRVP6OjvpUs3prEavNMw9GPS8ePvr0+rYM=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.VisualBasic.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			sltPGkmt4JpWQJX/ofcgTRsRt6OvyVg2pcPuyXqDvSU=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Win32.Primitives.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			CCj5s38eyoNmr0KCyNbJSaTl9dSu9+rm7//KMvJ6PK0=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Win32.Registry.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			qYPzNfleSCvcnHUqpXjpupdF+jwRT3KdMBpFhNKxVGU=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Shop.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			RzmRavQLgkMr2a5lCTW3Y3XYQsi5UcGMcI07f8ji4RE=
+=======
+			/5xtwm9HN8SL8/8z0Y5C0uJ63h1WqEmP0Z7ea1Vj4rs=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Shop.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			rPAN/u0Bxy86IIm2IU9z4e91A4L9O9z8lRaWS7batbM=
+=======
+			o9qeiPx8U3D9oN78xdn+Hx3BNo5bHVm4ju5y/sZfP/k=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/System.AppContext.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			5DnUtV5d96d1yDgFvRdPnozYtrME1/zGe79kfoFR2u4=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/System.Buffers.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			FdOpuF5MSzz/d/XK9HAm2klRWGg795tODR3xQ7cPUg4=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/System.Collections.Concurrent.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			V3ujw6EQi9z7iHTitUlPNFTJgCLkzSBx3vnJJFuN934=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/System.Collections.Immutable.dll</key>
@@ -1356,7 +1426,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			qnCL34JmwlO7gyeYmSrk1Z0u6ytDaACV0MXtsnarwbY=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/WindowsBase.dll</key>
@@ -1370,7 +1444,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			UYBgm2eduvMCWTliUcl318YqSMD3lImc247xRKSYF5Q=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/libSystem.IO.Compression.Native.dylib</key>
@@ -1478,6 +1556,30 @@
 			lqPbLJ+EX2gLCkqrVnY6dOUjG7K17T1SEUvHImFQx1c=
 			</data>
 		</dict>
+<<<<<<< Updated upstream
+=======
+		<key>Resources/addcaricon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pDPxXPltJHzjBMIF/YhgKKY1kBvEhe3mK7Tz6FMTojE=
+			</data>
+		</dict>
+		<key>Resources/addcaricon@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1k2n0BPnALr2q8JZpnRctWGQUVeEjqsLEVUaOLdX9Q8=
+			</data>
+		</dict>
+		<key>Resources/addcaricon@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CNJ8f2ZdA43LcENz5KRm1hpGSzB6iEjuO/5z3J6Vd1w=
+			</data>
+		</dict>
+>>>>>>> Stashed changes
 		<key>Resources/appicon.icns</key>
 		<dict>
 			<key>hash2</key>
@@ -1485,6 +1587,16 @@
 			H4w+DqGNITnXOEy4UxkSBph9BjGxHf/ui2zq6lzv5a0=
 			</data>
 		</dict>
+<<<<<<< Updated upstream
+=======
+		<key>Resources/dog.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AePzZGzqzFGCBC+uGP0YarHEhKatSMgkAVc0McP3MJw=
+			</data>
+		</dict>
+>>>>>>> Stashed changes
 		<key>Resources/dotnet_bot.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1510,7 +1622,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			sW/HubWAqg38LlQ8IEbIQx1csG/TsAvXG5jy5DjbChM=
+=======
+			cr3OevN4TwRf5wEc2HLSaGZnyYqsVjtqDPjr4SEs5HI=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Resources/profile@2x.png</key>

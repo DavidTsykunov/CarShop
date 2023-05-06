@@ -222,6 +222,12 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/mauisplash.inputs
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/sp/MauiSplash.storyboard
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/mauisplash.stamp
+<<<<<<< Updated upstream
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/addcaricon.png
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/addcaricon@2x.png
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/addcaricon@3x.png
+>>>>>>> Stashed changes
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon20x20@2x.png
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon20x20@3x.png
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon29x29@2x.png
@@ -240,6 +246,10 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/profile.png
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/profile@2x.png
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/profile@3x.png
+<<<<<<< Updated upstream
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/Resources/dog.png
+>>>>>>> Stashed changes
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/search.png
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/search@2x.png
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/search@3x.png
@@ -262,6 +272,7 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/_ProcessedBundleResourcesPath.items
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/_ProcessedContentPath.items
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/Shop.csproj.AssemblyReference.cache
+<<<<<<< Updated upstream
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/Microsoft.CSharp.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/Microsoft.Extensions.Configuration.Abstractions.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/Microsoft.Extensions.Configuration.stamp
@@ -441,6 +452,8 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Xml.XPath.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Xml.XPath.XDocument.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/WindowsBase.stamp
+=======
+>>>>>>> Stashed changes
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/Shop.GeneratedMSBuildEditorConfig.editorconfig
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/Shop.AssemblyInfoInputs.cache
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/Shop.AssemblyInfo.cs

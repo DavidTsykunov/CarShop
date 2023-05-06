@@ -1,22 +1,24 @@
 ﻿<Properties StartupConfiguration="{E3B8E8A6-1847-4FA4-B43D-CF9B5265891D}|Default">
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.ItemProperties.Shop PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2EA89DEA-CCDE-48D2-93F8-84D8DD969282" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Shop/Views/AddCarPage.xaml.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shop/Views/ProfilePage.xaml">
     <Files>
-      <File FileName="Shop/MainPage.xaml" Line="7" Column="5" />
+      <File FileName="Shop/MainPage.xaml" />
       <File FileName="Shop/Views/SettingsPage.xaml" />
-      <File FileName="Shop/Views/ProfilePage.xaml" />
+      <File FileName="Shop/Views/ProfilePage.xaml" Line="15" Column="15" />
       <File FileName="Shop/MauiProgram.cs" />
       <File FileName="Shop/Views/SettingsPage.xaml.cs" />
-      <File FileName="Shop/MainPage.xaml.cs" Line="5" Column="16" />
+      <File FileName="Shop/MainPage.xaml.cs" />
       <File FileName="Shop/AppShell.xaml.cs" Line="1" Column="1" />
-      <File FileName="Shop/Views/AddCarPage.xaml" Line="19" Column="9" />
-      <File FileName="Shop/Views/AddCarPage.xaml.cs" Line="5" Column="9" />
-      <File FileName="Shop/AppShell.xaml" Line="1" Column="1" />
+      <File FileName="Shop/Views/AddCarPage.xaml.cs" Line="15" Column="39" />
+      <File FileName="Shop/Views/ProfilePage.xaml.cs" />
+      <File FileName="Shop/App.xaml.cs" />
+      <File FileName="../../../../.nuget/packages/communitytoolkit.maui/5.1.0/readme.txt" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,9 +26,8 @@
           <Node name="Shop" expanded="True">
             <Node name="Shop" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="AddCarPage.xaml" expanded="True">
-                  <Node name="AddCarPage.xaml.cs" selected="True" />
-                </Node>
+                <Node name="AddCarPage.xaml" expanded="True" />
+                <Node name="ProfilePage.xaml" expanded="True" selected="True" />
                 <Node name="SettingsPage.xaml" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
@@ -38,6 +39,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Shop PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2EA89DEA-CCDE-48D2-93F8-84D8DD969282" />
 </Properties>

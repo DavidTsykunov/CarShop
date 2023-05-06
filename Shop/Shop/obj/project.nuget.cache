@@ -1,9 +1,18 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "I3qc1VlYP5BsmbrY8EoTdd9sFSrhN0G/xXemRR9YCzND4U2zH26x2DZkktisG6l2CmgLalPa9GpfE2Znb4r/sA==",
   "success": true,
   "projectFilePath": "/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/Shop.csproj",
   "expectedPackageFiles": [
+=======
+  "dgSpecHash": "44jJhU9ejSk9Yuu8u6vjD+2Ar76+VBkKgKbOkvtd5+/lqzNukIjuyYR5lnVAE4R1cJCaIIyVT4DW/F0sXD7CuQ==",
+  "success": true,
+  "projectFilePath": "/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/Shop.csproj",
+  "expectedPackageFiles": [
+    "/Users/aaaa/.nuget/packages/communitytoolkit.maui/5.1.0/communitytoolkit.maui.5.1.0.nupkg.sha512",
+    "/Users/aaaa/.nuget/packages/communitytoolkit.maui.core/5.1.0/communitytoolkit.maui.core.5.1.0.nupkg.sha512",
+>>>>>>> Stashed changes
     "/Users/aaaa/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/aaaa/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/Users/aaaa/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
