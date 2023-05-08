@@ -49,17 +49,23 @@ public final class R {
 	}
 	public static final class style {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		public static final int TextAppearance_Compat_Notification_Info_Media = 0x7f0f01ad;
 		public static final int TextAppearance_Compat_Notification_Line2_Media = 0x7f0f01af;
 		public static final int TextAppearance_Compat_Notification_Media = 0x7f0f01b0;
 		public static final int TextAppearance_Compat_Notification_Time_Media = 0x7f0f01b2;
 		public static final int TextAppearance_Compat_Notification_Title_Media = 0x7f0f01b4;
 =======
+=======
+>>>>>>> Stashed changes
 		public static final int TextAppearance_Compat_Notification_Info_Media = 0x7f1001a2;
 		public static final int TextAppearance_Compat_Notification_Line2_Media = 0x7f1001a4;
 		public static final int TextAppearance_Compat_Notification_Media = 0x7f1001a5;
 		public static final int TextAppearance_Compat_Notification_Time_Media = 0x7f1001a7;
 		public static final int TextAppearance_Compat_Notification_Title_Media = 0x7f1001a9;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 }

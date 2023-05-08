@@ -21373,6 +21373,7 @@ namespace Shop
 			
 			// aapt resource value: 0x7F07009E
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			public const int mtrl_checkbox_button = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
@@ -21681,6 +21682,161 @@ namespace Shop
 			public const int notify_panel_notification_icon_bg = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
+=======
+			public const int maui_splash_image = 2131165342;
+			
+			// aapt resource value: 0x7F07009F
+			public const int mtrl_bottomsheet_drag_handle = 2131165343;
+			
+			// aapt resource value: 0x7F0700A0
+			public const int mtrl_checkbox_button = 2131165344;
+			
+			// aapt resource value: 0x7F0700A1
+			public const int mtrl_checkbox_button_checked_unchecked = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int mtrl_checkbox_button_icon = 2131165346;
+			
+			// aapt resource value: 0x7F0700A3
+			public const int mtrl_checkbox_button_icon_checked_indeterminate = 2131165347;
+			
+			// aapt resource value: 0x7F0700A4
+			public const int mtrl_checkbox_button_icon_checked_unchecked = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int mtrl_checkbox_button_icon_indeterminate_checked = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int mtrl_checkbox_button_icon_indeterminate_unchecked = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int mtrl_checkbox_button_icon_unchecked_checked = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int mtrl_checkbox_button_icon_unchecked_indeterminate = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int mtrl_checkbox_button_unchecked_checked = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int mtrl_dialog_background = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int mtrl_dropdown_arrow = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int mtrl_ic_arrow_drop_down = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int mtrl_ic_arrow_drop_up = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int mtrl_ic_cancel = 2131165358;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int mtrl_ic_checkbox_checked = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int mtrl_ic_checkbox_unchecked = 2131165361;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int mtrl_ic_check_mark = 2131165359;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int mtrl_ic_error = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int mtrl_ic_indeterminate = 2131165363;
+			
+			// aapt resource value: 0x7F0700B4
+			public const int mtrl_navigation_bar_item_background = 2131165364;
+			
+			// aapt resource value: 0x7F0700B5
+			public const int mtrl_popupmenu_background = 2131165365;
+			
+			// aapt resource value: 0x7F0700B6
+			public const int mtrl_popupmenu_background_overlay = 2131165366;
+			
+			// aapt resource value: 0x7F0700B7
+			public const int mtrl_switch_thumb = 2131165367;
+			
+			// aapt resource value: 0x7F0700B8
+			public const int mtrl_switch_thumb_checked = 2131165368;
+			
+			// aapt resource value: 0x7F0700B9
+			public const int mtrl_switch_thumb_checked_pressed = 2131165369;
+			
+			// aapt resource value: 0x7F0700BA
+			public const int mtrl_switch_thumb_checked_unchecked = 2131165370;
+			
+			// aapt resource value: 0x7F0700BB
+			public const int mtrl_switch_thumb_pressed = 2131165371;
+			
+			// aapt resource value: 0x7F0700BC
+			public const int mtrl_switch_thumb_pressed_checked = 2131165372;
+			
+			// aapt resource value: 0x7F0700BD
+			public const int mtrl_switch_thumb_pressed_unchecked = 2131165373;
+			
+			// aapt resource value: 0x7F0700BE
+			public const int mtrl_switch_thumb_unchecked = 2131165374;
+			
+			// aapt resource value: 0x7F0700BF
+			public const int mtrl_switch_thumb_unchecked_checked = 2131165375;
+			
+			// aapt resource value: 0x7F0700C0
+			public const int mtrl_switch_thumb_unchecked_pressed = 2131165376;
+			
+			// aapt resource value: 0x7F0700C1
+			public const int mtrl_switch_track = 2131165377;
+			
+			// aapt resource value: 0x7F0700C2
+			public const int mtrl_switch_track_decoration = 2131165378;
+			
+			// aapt resource value: 0x7F0700C3
+			public const int mtrl_tabs_default_indicator = 2131165379;
+			
+			// aapt resource value: 0x7F0700C4
+			public const int navigation_empty_icon = 2131165380;
+			
+			// aapt resource value: 0x7F0700C5
+			public const int notification_action_background = 2131165381;
+			
+			// aapt resource value: 0x7F0700C6
+			public const int notification_bg = 2131165382;
+			
+			// aapt resource value: 0x7F0700C7
+			public const int notification_bg_low = 2131165383;
+			
+			// aapt resource value: 0x7F0700C8
+			public const int notification_bg_low_normal = 2131165384;
+			
+			// aapt resource value: 0x7F0700C9
+			public const int notification_bg_low_pressed = 2131165385;
+			
+			// aapt resource value: 0x7F0700CA
+			public const int notification_bg_normal = 2131165386;
+			
+			// aapt resource value: 0x7F0700CB
+			public const int notification_bg_normal_pressed = 2131165387;
+			
+			// aapt resource value: 0x7F0700CC
+			public const int notification_icon_background = 2131165388;
+			
+			// aapt resource value: 0x7F0700CD
+			public const int notification_template_icon_bg = 2131165389;
+			
+			// aapt resource value: 0x7F0700CE
+			public const int notification_template_icon_low_bg = 2131165390;
+			
+			// aapt resource value: 0x7F0700CF
+			public const int notification_tile_bg = 2131165391;
+			
+			// aapt resource value: 0x7F0700D0
+			public const int notify_panel_notification_icon_bg = 2131165392;
+			
+			// aapt resource value: 0x7F0700D1
+>>>>>>> Stashed changes
 			public const int profile = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
@@ -21700,6 +21856,9 @@ namespace Shop
 			
 			// aapt resource value: 0x7F0700D7
 			public const int tooltip_frame_light = 2131165399;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			
 			static Drawable()
@@ -24537,6 +24696,9 @@ namespace Shop
 			
 			// aapt resource value: 0x7F0F0092
 			public const int status_bar_notification_info_overflow = 2131689618;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			
 			static String()
@@ -30924,6 +31086,9 @@ namespace Shop
 			
 			// aapt resource value: 0x7F10041E
 			public const int Widget_Support_CoordinatorLayout = 2131756062;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			
 			static Style()
@@ -39041,9 +39206,12 @@ namespace Shop
 			public const int image_share_filepaths = 2131820544;
 			
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			// aapt resource value: 0x7F110001
 			public const int microsoft_maui_essentials_fileprovider_file_paths = 2131820545;
 			
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 			static Xml()

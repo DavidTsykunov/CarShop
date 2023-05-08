@@ -1775,6 +1775,9 @@ public final class R {
 		public static final int notify_panel_notification_icon_bg = 0x7f0700d0;
 		public static final int tooltip_frame_dark = 0x7f0700d6;
 		public static final int tooltip_frame_light = 0x7f0700d7;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 	public static final class id {
@@ -3890,6 +3893,9 @@ public final class R {
 		public static final int Widget_MaterialComponents_Toolbar_Surface = 0x7f10041c;
 		public static final int Widget_MaterialComponents_Tooltip = 0x7f10041d;
 		public static final int Widget_Support_CoordinatorLayout = 0x7f10041e;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 	public static final class styleable {

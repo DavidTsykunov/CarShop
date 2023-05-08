@@ -29,7 +29,11 @@ public final class R {
 	}
 	public static final class style {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		public static final int Widget_Support_CoordinatorLayout = 0x7f0f0429;
+=======
+		public static final int Widget_Support_CoordinatorLayout = 0x7f10041e;
+>>>>>>> Stashed changes
 =======
 		public static final int Widget_Support_CoordinatorLayout = 0x7f10041e;
 >>>>>>> Stashed changes

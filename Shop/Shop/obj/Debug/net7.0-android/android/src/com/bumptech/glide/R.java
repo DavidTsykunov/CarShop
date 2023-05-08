@@ -583,6 +583,7 @@ public final class R {
 		public static final int abc_textfield_search_material = 0x7f07006f;
 		public static final int abc_vector_test = 0x7f070070;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		public static final int notification_action_background = 0x7f0700c3;
 		public static final int notification_bg = 0x7f0700c4;
 		public static final int notification_bg_low = 0x7f0700c5;
@@ -598,6 +599,8 @@ public final class R {
 		public static final int tooltip_frame_dark = 0x7f0700d0;
 		public static final int tooltip_frame_light = 0x7f0700d1;
 =======
+=======
+>>>>>>> Stashed changes
 		public static final int notification_action_background = 0x7f0700c5;
 		public static final int notification_bg = 0x7f0700c6;
 		public static final int notification_bg_low = 0x7f0700c7;
@@ -612,6 +615,9 @@ public final class R {
 		public static final int notify_panel_notification_icon_bg = 0x7f0700d0;
 		public static final int tooltip_frame_dark = 0x7f0700d6;
 		public static final int tooltip_frame_light = 0x7f0700d7;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 	public static final class id {
@@ -1572,6 +1578,9 @@ public final class R {
 		public static final int Widget_Compat_NotificationActionContainer = 0x7f100301;
 		public static final int Widget_Compat_NotificationActionText = 0x7f100302;
 		public static final int Widget_Support_CoordinatorLayout = 0x7f10041e;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 	public static final class styleable {

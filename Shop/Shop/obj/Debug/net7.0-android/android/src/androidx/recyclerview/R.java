@@ -71,6 +71,7 @@ public final class R {
 	}
 	public static final class drawable {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		public static final int notification_action_background = 0x7f0700c3;
 		public static final int notification_bg = 0x7f0700c4;
 		public static final int notification_bg_low = 0x7f0700c5;
@@ -84,6 +85,8 @@ public final class R {
 		public static final int notification_tile_bg = 0x7f0700cd;
 		public static final int notify_panel_notification_icon_bg = 0x7f0700ce;
 =======
+=======
+>>>>>>> Stashed changes
 		public static final int notification_action_background = 0x7f0700c5;
 		public static final int notification_bg = 0x7f0700c6;
 		public static final int notification_bg_low = 0x7f0700c7;
@@ -96,6 +99,9 @@ public final class R {
 		public static final int notification_template_icon_low_bg = 0x7f0700ce;
 		public static final int notification_tile_bg = 0x7f0700cf;
 		public static final int notify_panel_notification_icon_bg = 0x7f0700d0;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 	public static final class id {
@@ -182,6 +188,7 @@ public final class R {
 	}
 	public static final class string {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		public static final int status_bar_notification_info_overflow = 0x7f0e0094;
 	}
 	public static final class style {
@@ -196,6 +203,11 @@ public final class R {
 		public static final int status_bar_notification_info_overflow = 0x7f0f0092;
 	}
 	public static final class style {
+=======
+		public static final int status_bar_notification_info_overflow = 0x7f0f0092;
+	}
+	public static final class style {
+>>>>>>> Stashed changes
 		public static final int TextAppearance_Compat_Notification = 0x7f1001a0;
 		public static final int TextAppearance_Compat_Notification_Info = 0x7f1001a1;
 		public static final int TextAppearance_Compat_Notification_Line2 = 0x7f1001a3;
@@ -203,6 +215,9 @@ public final class R {
 		public static final int TextAppearance_Compat_Notification_Title = 0x7f1001a8;
 		public static final int Widget_Compat_NotificationActionContainer = 0x7f100301;
 		public static final int Widget_Compat_NotificationActionText = 0x7f100302;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 	public static final class styleable {

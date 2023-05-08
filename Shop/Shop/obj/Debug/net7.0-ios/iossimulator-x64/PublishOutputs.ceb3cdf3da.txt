@@ -1,4 +1,9 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Shop.app/icudt.dat
+<<<<<<< Updated upstream
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Shop.app/Firebase.dll
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Shop.app/LiteDB.dll
+>>>>>>> Stashed changes
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Shop.app/Microsoft.Extensions.Configuration.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Shop.app/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Shop.app/Microsoft.Extensions.DependencyInjection.dll
@@ -9,6 +14,12 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Shop.app/Microsoft.Extensions.Options.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Shop.app/Microsoft.Extensions.Primitives.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Shop.app/Microsoft.Maui.Graphics.dll
+<<<<<<< Updated upstream
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Shop.app/Newtonsoft.Json.dll
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Shop.app/System.Reactive.dll
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Shop.app/System.Runtime.InteropServices.WindowsRuntime.dll
+>>>>>>> Stashed changes
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Shop.app/Shop.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Shop.app/Microsoft.CSharp.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Shop.app/Microsoft.VisualBasic.Core.dll

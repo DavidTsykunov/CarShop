@@ -1,6 +1,11 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/Shop.runtimeconfig.json
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/Shop.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/Shop.pdb
+<<<<<<< Updated upstream
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/Firebase.dll
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/LiteDB.dll
+>>>>>>> Stashed changes
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/Microsoft.Extensions.Configuration.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/Microsoft.Extensions.DependencyInjection.dll
@@ -11,6 +16,12 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/Microsoft.Extensions.Options.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/Microsoft.Extensions.Primitives.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/Microsoft.Maui.Graphics.dll
+<<<<<<< Updated upstream
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/Newtonsoft.Json.dll
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/System.Reactive.dll
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/System.Runtime.InteropServices.WindowsRuntime.dll
+>>>>>>> Stashed changes
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/Microsoft.CSharp.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/Microsoft.VisualBasic.Core.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-ios/iossimulator-x64/Microsoft.VisualBasic.dll
@@ -223,6 +234,12 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/sp/MauiSplash.storyboard
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/mauisplash.stamp
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/addcaricon.png
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/addcaricon@2x.png
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/addcaricon@3x.png
+>>>>>>> Stashed changes
 =======
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/addcaricon.png
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/addcaricon@2x.png
@@ -247,6 +264,10 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/profile@2x.png
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/profile@3x.png
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/Resources/dog.png
+>>>>>>> Stashed changes
 =======
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/Resources/dog.png
 >>>>>>> Stashed changes
@@ -273,6 +294,11 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/_ProcessedContentPath.items
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/Shop.csproj.AssemblyReference.cache
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/Firebase.stamp
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/LiteDB.stamp
+>>>>>>> Stashed changes
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/Microsoft.CSharp.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/Microsoft.Extensions.Configuration.Abstractions.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/Microsoft.Extensions.Configuration.stamp
@@ -296,6 +322,10 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/Microsoft.Win32.Registry.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/mscorlib.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/netstandard.stamp
+<<<<<<< Updated upstream
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/Newtonsoft.Json.stamp
+>>>>>>> Stashed changes
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.AppContext.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Buffers.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Collections.Concurrent.stamp
@@ -376,6 +406,10 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Numerics.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Numerics.Vectors.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.ObjectModel.stamp
+<<<<<<< Updated upstream
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Reactive.stamp
+>>>>>>> Stashed changes
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Reflection.DispatchProxy.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Reflection.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Reflection.Emit.stamp
@@ -396,6 +430,10 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Runtime.InteropServices.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Runtime.InteropServices.JavaScript.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Runtime.InteropServices.RuntimeInformation.stamp
+<<<<<<< Updated upstream
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Runtime.InteropServices.WindowsRuntime.stamp
+>>>>>>> Stashed changes
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Runtime.Intrinsics.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Runtime.Loader.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Runtime.Numerics.stamp
@@ -452,6 +490,9 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Xml.XPath.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/System.Xml.XPath.XDocument.stamp
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/resourcestamps/WindowsBase.stamp
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-ios/iossimulator-x64/Shop.GeneratedMSBuildEditorConfig.editorconfig

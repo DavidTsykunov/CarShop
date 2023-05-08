@@ -600,6 +600,9 @@ public final class R {
 		public static final int test_level_drawable = 0x7f0700d5;
 		public static final int tooltip_frame_dark = 0x7f0700d6;
 		public static final int tooltip_frame_light = 0x7f0700d7;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 	public static final class id {
@@ -1480,6 +1483,9 @@ public final class R {
 		public static final int Widget_AppCompat_TextView_SpinnerItem = 0x7f1002fe;
 		public static final int Widget_AppCompat_Toolbar = 0x7f1002ff;
 		public static final int Widget_AppCompat_Toolbar_Button_Navigation = 0x7f100300;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 	public static final class styleable {

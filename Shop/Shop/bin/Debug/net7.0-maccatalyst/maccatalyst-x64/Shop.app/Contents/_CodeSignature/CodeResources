@@ -29,7 +29,10 @@
 		JqTbsVJEVRdBiQ4S6+9T3o2+ITw=
 		</data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		<key>Resources/addcaricon.png</key>
 		<data>
 		Eznxks5F9TBRaw4jhWU0RW2PgE0=
@@ -42,17 +45,26 @@
 		<data>
 		G6exmT89YLdzZNFDUHuuzk9dA5A=
 		</data>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		<key>Resources/appicon.icns</key>
 		<data>
 		L9cHAOVSlaW2jMaBgy7GlIBZdZg=
 		</data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		<key>Resources/dog.png</key>
 		<data>
 		IjabxEc/R8IsGRUvA7ernEjv9C8=
 		</data>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		<key>Resources/dotnet_bot.png</key>
 		<data>
@@ -69,9 +81,13 @@
 		<key>Resources/profile.png</key>
 		<data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		aDLzx+fG5Sq8eo4IGSuLe2vPhsI=
 =======
 		eHszhIpeVdQfCxxTpL2RtgzWW2U=
+>>>>>>> Stashed changes
+=======
+		aDLzx+fG5Sq8eo4IGSuLe2vPhsI=
 >>>>>>> Stashed changes
 		</data>
 		<key>Resources/profile@2x.png</key>
@@ -97,6 +113,23 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+<<<<<<< Updated upstream
+=======
+		<key>MonoBundle/Firebase.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+/VWiObrxgn0Q22LC7I+fYTGYfwUA770NDhPm7tO5tI=
+			</data>
+		</dict>
+		<key>MonoBundle/LiteDB.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qlJfTUmhyeCMvTvul5dmAHSN6aeolKxRMfMITxKJ8Og=
+			</data>
+		</dict>
+>>>>>>> Stashed changes
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -172,7 +205,11 @@
 			<key>hash2</key>
 			<data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			bMvbPWCdkH0Oup+YiITdijjBnQ6cIc1gl4CLdKECJYw=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
@@ -197,7 +234,11 @@
 			<key>hash2</key>
 			<data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			njT7/eedgDnjXVsphlreH1Vn6LJbtPccKwE8NoRX5m4=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
@@ -229,7 +270,11 @@
 			<key>hash2</key>
 			<data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			u68kw7HM8sRVP6OjvpUs3prEavNMw9GPS8ePvr0+rYM=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
@@ -240,7 +285,11 @@
 			<key>hash2</key>
 			<data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			sltPGkmt4JpWQJX/ofcgTRsRt6OvyVg2pcPuyXqDvSU=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
@@ -251,7 +300,11 @@
 			<key>hash2</key>
 			<data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			CCj5s38eyoNmr0KCyNbJSaTl9dSu9+rm7//KMvJ6PK0=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
@@ -262,9 +315,20 @@
 			<key>hash2</key>
 			<data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			qYPzNfleSCvcnHUqpXjpupdF+jwRT3KdMBpFhNKxVGU=
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
+		<key>MonoBundle/Newtonsoft.Json.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cs8pHUurDt0IqbB8YXPh560au3q3J/1wRL9jBddRVmE=
 >>>>>>> Stashed changes
 			</data>
 		</dict>
@@ -273,9 +337,13 @@
 			<key>hash2</key>
 			<data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			RzmRavQLgkMr2a5lCTW3Y3XYQsi5UcGMcI07f8ji4RE=
 =======
 			/5xtwm9HN8SL8/8z0Y5C0uJ63h1WqEmP0Z7ea1Vj4rs=
+>>>>>>> Stashed changes
+=======
+			ZZQjJPZ41CbnsZ9aJL/sGDV2oUQVsJie1iXh/FZqyhs=
 >>>>>>> Stashed changes
 			</data>
 		</dict>
@@ -284,9 +352,13 @@
 			<key>hash2</key>
 			<data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			rPAN/u0Bxy86IIm2IU9z4e91A4L9O9z8lRaWS7batbM=
 =======
 			o9qeiPx8U3D9oN78xdn+Hx3BNo5bHVm4ju5y/sZfP/k=
+>>>>>>> Stashed changes
+=======
+			KGzBD+heV8syYW+RhEHH2cZMuYEzfrLQFbl+oFXzJgI=
 >>>>>>> Stashed changes
 			</data>
 		</dict>
@@ -295,7 +367,11 @@
 			<key>hash2</key>
 			<data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			5DnUtV5d96d1yDgFvRdPnozYtrME1/zGe79kfoFR2u4=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
@@ -306,7 +382,11 @@
 			<key>hash2</key>
 			<data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			FdOpuF5MSzz/d/XK9HAm2klRWGg795tODR3xQ7cPUg4=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
@@ -317,7 +397,11 @@
 			<key>hash2</key>
 			<data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			V3ujw6EQi9z7iHTitUlPNFTJgCLkzSBx3vnJJFuN934=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
@@ -897,6 +981,16 @@
 			xfS74OJCEqGywsBuO7uBouQsM9vkhl/d4JYxsV9BVuQ=
 			</data>
 		</dict>
+<<<<<<< Updated upstream
+=======
+		<key>MonoBundle/System.Reactive.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DGRJ/1LpbsyfraCrxSrhsO8daPSmqo+CURp0EeYBhZk=
+			</data>
+		</dict>
+>>>>>>> Stashed changes
 		<key>MonoBundle/System.Reflection.DispatchProxy.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1023,6 +1117,16 @@
 			m11uasGSpx+kcWsS9dA5oI9PbX45rV+6xEBEPYiq6E0=
 			</data>
 		</dict>
+<<<<<<< Updated upstream
+=======
+		<key>MonoBundle/System.Runtime.InteropServices.WindowsRuntime.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZwoUftH42mRHleZUoSuHPAlCgdaknRpq8Xa2g4tZPlU=
+			</data>
+		</dict>
+>>>>>>> Stashed changes
 		<key>MonoBundle/System.Runtime.InteropServices.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1427,7 +1531,11 @@
 			<key>hash2</key>
 			<data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			qnCL34JmwlO7gyeYmSrk1Z0u6ytDaACV0MXtsnarwbY=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
@@ -1445,7 +1553,11 @@
 			<key>hash2</key>
 			<data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			UYBgm2eduvMCWTliUcl318YqSMD3lImc247xRKSYF5Q=
+=======
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
@@ -1557,7 +1669,10 @@
 			</data>
 		</dict>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		<key>Resources/addcaricon.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1579,6 +1694,9 @@
 			CNJ8f2ZdA43LcENz5KRm1hpGSzB6iEjuO/5z3J6Vd1w=
 			</data>
 		</dict>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		<key>Resources/appicon.icns</key>
 		<dict>
@@ -1588,7 +1706,10 @@
 			</data>
 		</dict>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		<key>Resources/dog.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1596,6 +1717,9 @@
 			AePzZGzqzFGCBC+uGP0YarHEhKatSMgkAVc0McP3MJw=
 			</data>
 		</dict>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		<key>Resources/dotnet_bot.png</key>
 		<dict>
@@ -1623,9 +1747,13 @@
 			<key>hash2</key>
 			<data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			sW/HubWAqg38LlQ8IEbIQx1csG/TsAvXG5jy5DjbChM=
 =======
 			cr3OevN4TwRf5wEc2HLSaGZnyYqsVjtqDPjr4SEs5HI=
+>>>>>>> Stashed changes
+=======
+			sW/HubWAqg38LlQ8IEbIQx1csG/TsAvXG5jy5DjbChM=
 >>>>>>> Stashed changes
 			</data>
 		</dict>

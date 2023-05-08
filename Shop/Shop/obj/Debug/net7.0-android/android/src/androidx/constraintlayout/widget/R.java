@@ -918,6 +918,9 @@ public final class R {
 		public static final int notify_panel_notification_icon_bg = 0x7f0700d0;
 		public static final int tooltip_frame_dark = 0x7f0700d6;
 		public static final int tooltip_frame_light = 0x7f0700d7;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 	public static final class id {
@@ -1999,6 +2002,9 @@ public final class R {
 		public static final int Widget_AppCompat_Toolbar_Button_Navigation = 0x7f100300;
 		public static final int Widget_Compat_NotificationActionContainer = 0x7f100301;
 		public static final int Widget_Compat_NotificationActionText = 0x7f100302;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 	public static final class styleable {
