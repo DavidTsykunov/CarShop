@@ -16,6 +16,8 @@
             Value="#a08be8" />
             <Setter Property="Shell.TabBarUnselectedColor"
             Value="AntiqueWhite" />
+            <Setter Property="Shell.BackgroundColor"
+            Value="#151515" />
         </Style>
     </Shell.Resources>
 

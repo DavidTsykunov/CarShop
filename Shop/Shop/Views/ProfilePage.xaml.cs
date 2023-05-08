@@ -32,4 +32,8 @@ public partial class ProfilePage : ContentPage
             Title = TitleEntry.Text,
         });
     }
+    private async void OnGoToReg(object sender, EventArgs e)
+    {
+        await Navigation.PushModalAsync(new RegisterPage());
+    }
 }

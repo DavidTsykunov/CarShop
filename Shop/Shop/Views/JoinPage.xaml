@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Shop.Views.JoinPage"
+             Title="Войти"
+             NavigationPage.HasNavigationBar="False">
+    <Grid>
+        <StackLayout Margin="20">
+            <Image Source="logo.png" HeightRequest="100"  HorizontalOptions="StartAndExpand"/>
+
+            <StackLayout Margin="0,40">
+                <Label FontSize="32" Text="Добро пожаловать"/>
+                <Label FontFamily="OpenSansRegular" 
+                       FontSize="16" Text="Войдите, что-бы продолжить"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label FontFamily="OpenSansRegular"
+                       FontSize="16" Text="Почта"/>
+                <Grid Margin="0,5">
+                    <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
+                    <Entry BackgroundColor="Transparent" Placeholder="Введите email" 
+                           Margin="5,0"
+                           PlaceholderColor="Gray"
+                           ClearButtonVisibility="WhileEditing"
+                           Text="{Binding Email}"/>
+
+                </Grid>
+
+                <Label FontFamily="OpenSansRegular"
+                       FontSize="16" Text="Пароль"/>
+                <Grid Margin="0,5">
+                    <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
+                    <Entry BackgroundColor="Transparent" Placeholder="Введите пароль" 
+                           Margin="5,0"
+                           PlaceholderColor="Gray" IsPassword="True"
+                           ClearButtonVisibility="WhileEditing"
+                           Text="{Binding Password}"/>
+
+                </Grid>
+            </StackLayout>
+
+            <Button BackgroundColor="White" TextColor="{StaticResource Primary}" BorderColor="{StaticResource Primary}" BorderWidth="1" Margin="0,15"
+                    Command="{Binding LoginBtn}" Text="Войти" FontFamily="OpenSansBold"/>
+
+            <StackLayout Orientation="Horizontal">
+
+                <Button BackgroundColor="White" TextColor="{StaticResource Primary}" FontFamily="OpenSansRegular" 
+                       FontSize="15" Text="Забыли пароль?" VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand" 
+                       />
+                <Button Clicked="OnGoToReg" FontFamily="OpenSansRegular" 
+                       FontSize="15" Text="Зарегестрируйтесь"  VerticalOptions="EndAndExpand" 
+                       HorizontalOptions="EndAndExpand" 
+                       />
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>

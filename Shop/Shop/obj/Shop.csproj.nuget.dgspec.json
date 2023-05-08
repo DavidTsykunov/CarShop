@@ -64,6 +64,10 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
             "FirebaseDatabase.net": {
               "target": "Package",
               "version": "[4.2.0, )"
@@ -186,6 +190,10 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
             "FirebaseDatabase.net": {
               "target": "Package",
               "version": "[4.2.0, )"
@@ -253,6 +261,10 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
             "FirebaseDatabase.net": {
               "target": "Package",
               "version": "[4.2.0, )"
@@ -321,6 +333,10 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
             "FirebaseDatabase.net": {
               "target": "Package",
               "version": "[4.2.0, )"

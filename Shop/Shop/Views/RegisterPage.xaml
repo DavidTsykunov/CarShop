@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Shop.Views.RegisterPage"
+             Title="Зарегестрироваться"
+             NavigationPage.HasNavigationBar="False">
+    <Grid>
+        <StackLayout Margin="20">
+            <Image Source="logo.png" HeightRequest="100"  HorizontalOptions="StartAndExpand"/>
+
+            <StackLayout Margin="0,40">
+                <Label FontSize="32" Text="Добро пожаловать"/>
+                <Label FontFamily="OpenSansRegular" 
+                       FontSize="16" Text="Зарегестрируйтесь, что-бы продолжить"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label FontFamily="OpenSansRegular"
+                       FontSize="16" Text="Почта"/>
+                <Grid Margin="0,5">
+                    <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
+                    <Entry BackgroundColor="Transparent" Placeholder="Введите email" 
+                           Margin="5,0"
+                           PlaceholderColor="Gray"
+                           ClearButtonVisibility="WhileEditing"
+                           Text="{Binding Email}"/>
+
+                </Grid>
+
+                <Label FontFamily="OpenSansRegular"
+                       FontSize="16" Text="Придумайте пароль"/>
+                <Grid Margin="0,5">
+                    <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
+                    <Entry BackgroundColor="Transparent" Placeholder="Введите пароль" 
+                           Margin="5,0"
+                           PlaceholderColor="Gray" IsPassword="True"
+                           ClearButtonVisibility="WhileEditing"
+                           Text="{Binding Password}"/>
+
+                </Grid>
+            </StackLayout>
+
+            <Button Margin="0,15" Command="{Binding RegisterUser}"
+                    Text="Зарегестрироваться" FontFamily="OpenSansBold"/>
+
+            <StackLayout Orientation="Horizontal">
+
+                <Button BackgroundColor="White" TextColor="{StaticResource Primary}" Clicked="OnGoToJoin" FontFamily="OpenSansRegular" 
+                       FontSize="15" Text="Уже есть аккаунт?" VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand" 
+                       />
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>

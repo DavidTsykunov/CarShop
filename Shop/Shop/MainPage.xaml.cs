@@ -3,8 +3,9 @@
 public partial class MainPage : ContentPage
 {
 	int count = 0;
+    bool loaded = false;
 
-	public MainPage()
+    public MainPage()
 	{
 		InitializeComponent();
 	}
@@ -20,5 +21,14 @@ public partial class MainPage : ContentPage
 
 		SemanticScreenReader.Announce(CounterBtn.Text);
 	}
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        if (loaded == false)
+        {
+            loaded = true;
+        }
+    }
 }
 
