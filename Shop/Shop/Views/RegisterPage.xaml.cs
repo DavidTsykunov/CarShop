@@ -15,9 +15,8 @@ public partial class RegisterPage : ContentPage
         BindingContext = new RegisterViewModel(Navigation);
     }
     private async void OnGoToJoin(object sender, EventArgs e)
-    {
-        Navigation.RemovePage(this);       
+    {     
         await Navigation.PushModalAsync(new JoinPage());
     }
-    
+
 }

@@ -12,6 +12,6 @@ public partial class JoinPage : ContentPage
     private async void OnGoToReg(object sender, EventArgs e)
     {      
         await Navigation.PushModalAsync(new RegisterPage());
-        Navigation.RemovePage(this);
     }
+
 }
