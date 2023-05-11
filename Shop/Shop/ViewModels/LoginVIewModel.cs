@@ -51,17 +51,7 @@ namespace Shop.ViewModels
                 Preferences.Set("FreshFirebaseToken", serializedContent);
                 await App.Current.MainPage.DisplayAlert("Alert", "User Login successfully", "OK");
 
-                if (_navigation.ModalStack.Count > 0)
-                {
-                    var thisPage = _navigation.ModalStack[_navigation.ModalStack.Count - 1];
-                    _navigation.InsertPageBefore(thisPage, _navigation.ModalStack[0]);
-
-                    for (int i = 0; i < _navigation.ModalStack.Count; i++)
-                    {
-                        await _navigation.PopModalAsync();
-                    }
-                }
-                else await _navigation.PopModalAsync();
+                await _navigation.PopModalAsync();
 
             }
             catch (Exception ex)

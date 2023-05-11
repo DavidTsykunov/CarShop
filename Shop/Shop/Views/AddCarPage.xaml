@@ -9,18 +9,32 @@
             Spacing="25"
             Padding="30,0"
             VerticalOptions="Center">
+            <Image
+                x:Name = "myImage"
+                 Source="dog.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
 
-        <Button
+            <Button
                 x:Name="NewCar"
                 Text="Добавить машину"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="Car"
                 HorizontalOptions="Center" />
 
-        <Label 
+            <Label 
             Text="Дабавить Машину"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-    </VerticalStackLayout>
-        </ScrollView>
-</ContentPage>
+
+            <CollectionView ItemsSource="{Binding TodoItems}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Image Source="{Binding Image}" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage> 
