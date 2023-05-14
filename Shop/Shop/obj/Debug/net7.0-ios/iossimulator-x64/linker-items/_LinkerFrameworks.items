@@ -343,6 +343,12 @@
     <_LinkerFrameworks Include="PencilKit">
       <IsWeak>true</IsWeak>
     </_LinkerFrameworks>
+<<<<<<< Updated upstream
+=======
+    <_LinkerFrameworks Include="PushToTalk">
+      <IsWeak>true</IsWeak>
+    </_LinkerFrameworks>
+>>>>>>> Stashed changes
     <_LinkerFrameworks Include="QuickLookThumbnailing">
       <IsWeak>true</IsWeak>
     </_LinkerFrameworks>

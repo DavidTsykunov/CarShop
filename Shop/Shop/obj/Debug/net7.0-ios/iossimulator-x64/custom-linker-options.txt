@@ -200,7 +200,11 @@ MonoLibrary=/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.ios
 MonoLibrary=/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64/7.0.5/runtimes/iossimulator-x64/native/libmonosgen-2.0.dylib
 				MtouchFloat32=
 				Optimize=
+<<<<<<< Updated upstream
 				PartialStaticRegistrarLibrary=/usr/local/share/dotnet/packs/Microsoft.iOS.Runtime.iossimulator-x64/16.2.2054/runtimes/iossimulator-x64/native/Microsoft.iOS.registrar.a
+=======
+				PartialStaticRegistrarLibrary=/usr/local/share/dotnet/packs/Microsoft.iOS.Runtime.iossimulator-x64/16.4.7054/runtimes/iossimulator-x64/native/Microsoft.iOS.registrar.a
+>>>>>>> Stashed changes
 				Platform=iOS
 				PlatformAssembly=Microsoft.iOS.dll
 				RelativeAppBundlePath=../Shop.app/
@@ -208,11 +212,19 @@ MonoLibrary=/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.ios
 				RequirePInvokeWrappers=
 				RuntimeConfigurationFile=runtimeconfig.bin
 				SdkDevPath=/Applications/Xcode.app/Contents/Developer
+<<<<<<< Updated upstream
 				SdkRootDirectory=/usr/local/share/dotnet/packs/Microsoft.iOS.Sdk/16.2.2054/
+=======
+				SdkRootDirectory=/usr/local/share/dotnet/packs/Microsoft.iOS.Sdk/16.4.7054/
+>>>>>>> Stashed changes
 				SdkVersion=16.4
 				TargetArchitectures=x86_64
 				TargetFramework=.NETCoreApp,Version=v7.0,Profile=ios
 				UseLlvm=False
 				Verbosity=0
+<<<<<<< Updated upstream
 				XamarinNativeLibraryDirectory=/usr/local/share/dotnet/packs/Microsoft.iOS.Runtime.iossimulator-x64/16.2.2054/runtimes/iossimulator-x64/native
+=======
+				XamarinNativeLibraryDirectory=/usr/local/share/dotnet/packs/Microsoft.iOS.Runtime.iossimulator-x64/16.4.7054/runtimes/iossimulator-x64/native
+>>>>>>> Stashed changes
 				XamarinRuntime=MonoVM

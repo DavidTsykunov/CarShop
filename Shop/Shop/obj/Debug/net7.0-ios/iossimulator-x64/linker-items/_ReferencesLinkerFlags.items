@@ -18,6 +18,10 @@
     <_ReferencesLinkerFlags Include="-u_xamarin_init_nsthread" />
     <_ReferencesLinkerFlags Include="-u_xamarin_os_log" />
     <_ReferencesLinkerFlags Include="-u_xamarin_UIApplicationMain" />
+<<<<<<< Updated upstream
+=======
+    <_ReferencesLinkerFlags Include="-u_xamarin_locate_assembly_resource" />
+>>>>>>> Stashed changes
     <_ReferencesLinkerFlags Include="-u_xamarin_switch_gchandle" />
     <_ReferencesLinkerFlags Include="-u_xamarin_mono_object_retain" />
     <_ReferencesLinkerFlags Include="-u_xamarin_find_protocol_wrapper_type" />

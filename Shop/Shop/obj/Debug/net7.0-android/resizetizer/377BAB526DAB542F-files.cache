@@ -5,8 +5,12 @@ obj/Debug/net7.0-android/resizetizer/r/mipmap-hdpi/appicon_foreground.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-hdpi/appicon.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-hdpi/appicon_background.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/dog.png
+<<<<<<< Updated upstream
 obj/Debug/net7.0-android/resizetizer/r/drawable/search.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/profile.png
+=======
+obj/Debug/net7.0-android/resizetizer/r/drawable/logo.png
+>>>>>>> Stashed changes
 obj/Debug/net7.0-android/resizetizer/r/mipmap-xxxhdpi/appicon_foreground.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-xxxhdpi/appicon.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-xxxhdpi/appicon_background.png
@@ -18,25 +22,37 @@ obj/Debug/net7.0-android/resizetizer/r/drawable-xhdpi/addcaricon.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-xhdpi/search.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-xhdpi/splash.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-xhdpi/profile.png
+<<<<<<< Updated upstream
 obj/Debug/net7.0-android/resizetizer/r/drawable-xhdpi/profileicon.png
+=======
+>>>>>>> Stashed changes
 obj/Debug/net7.0-android/resizetizer/r/drawable-xxhdpi/dotnet_bot.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-xxhdpi/addcaricon.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-xxhdpi/search.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-xxhdpi/splash.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-xxhdpi/profile.png
+<<<<<<< Updated upstream
 obj/Debug/net7.0-android/resizetizer/r/drawable-xxhdpi/profileicon.png
+=======
+>>>>>>> Stashed changes
 obj/Debug/net7.0-android/resizetizer/r/drawable-hdpi/dotnet_bot.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-hdpi/addcaricon.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-hdpi/search.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-hdpi/splash.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-hdpi/profile.png
+<<<<<<< Updated upstream
 obj/Debug/net7.0-android/resizetizer/r/drawable-hdpi/profileicon.png
+=======
+>>>>>>> Stashed changes
 obj/Debug/net7.0-android/resizetizer/r/drawable-mdpi/dotnet_bot.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-mdpi/addcaricon.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-mdpi/search.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-mdpi/splash.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-mdpi/profile.png
+<<<<<<< Updated upstream
 obj/Debug/net7.0-android/resizetizer/r/drawable-mdpi/profileicon.png
+=======
+>>>>>>> Stashed changes
 obj/Debug/net7.0-android/resizetizer/r/mipmap-xhdpi/appicon_foreground.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-xhdpi/appicon.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-xhdpi/appicon_background.png
@@ -45,6 +61,9 @@ obj/Debug/net7.0-android/resizetizer/r/drawable-xxxhdpi/addcaricon.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-xxxhdpi/search.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-xxxhdpi/splash.png
 obj/Debug/net7.0-android/resizetizer/r/drawable-xxxhdpi/profile.png
+<<<<<<< Updated upstream
 obj/Debug/net7.0-android/resizetizer/r/drawable-xxxhdpi/profileicon.png
+=======
+>>>>>>> Stashed changes
 obj/Debug/net7.0-android/resizetizer/r/mipmap-anydpi-v26/appicon_round.xml
 obj/Debug/net7.0-android/resizetizer/r/mipmap-anydpi-v26/appicon.xml

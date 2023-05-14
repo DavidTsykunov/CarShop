@@ -30,7 +30,10 @@
 		</data>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 		<key>Resources/addcaricon.png</key>
@@ -46,6 +49,9 @@
 		G6exmT89YLdzZNFDUHuuzk9dA5A=
 		</data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -55,7 +61,10 @@
 		</data>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 		<key>Resources/dog.png</key>
@@ -63,6 +72,9 @@
 		IjabxEc/R8IsGRUvA7ernEjv9C8=
 		</data>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -78,6 +90,7 @@
 		<data>
 		AgG9OaBqGlLlSsDbnE/6b1bb0xU=
 		</data>
+<<<<<<< Updated upstream
 		<key>Resources/profile.png</key>
 		<data>
 <<<<<<< Updated upstream
@@ -87,6 +100,15 @@
 		eHszhIpeVdQfCxxTpL2RtgzWW2U=
 >>>>>>> Stashed changes
 =======
+		aDLzx+fG5Sq8eo4IGSuLe2vPhsI=
+>>>>>>> Stashed changes
+=======
+		<key>Resources/logo.png</key>
+		<data>
+		szcBvrJgwRyKw0WwXJ97fCuaRLc=
+		</data>
+		<key>Resources/profile.png</key>
+		<data>
 		aDLzx+fG5Sq8eo4IGSuLe2vPhsI=
 >>>>>>> Stashed changes
 		</data>
@@ -114,7 +136,17 @@
 	<key>files2</key>
 	<dict>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+		<key>MonoBundle/Firebase.Auth.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cptNzFxM2eVaLigHviAS6aaQj7gr0YR02xDKHTex884=
+			</data>
+		</dict>
+>>>>>>> Stashed changes
 		<key>MonoBundle/Firebase.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -129,6 +161,9 @@
 			qlJfTUmhyeCMvTvul5dmAHSN6aeolKxRMfMITxKJ8Og=
 			</data>
 		</dict>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
 		<dict>
@@ -206,6 +241,7 @@
 			<data>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			bMvbPWCdkH0Oup+YiITdijjBnQ6cIc1gl4CLdKECJYw=
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
@@ -213,26 +249,38 @@
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
+=======
+			fHaJhfNjTVsYJF8hTeSKzlpq2g2J6yXORRPsGwQzByA=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Maui.Controls.Compatibility.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			ohI2ONCXfsGFGHjDsdKstCIdPuKLMCrbVuIOFknm4J8=
+=======
+			NsQqM2jABDVkMnxGBW0mxyOTlJoNeMYqM5jldoSqesU=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Maui.Controls.Xaml.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			8aWIJg5t4Z1q0nX2FDqRR8h1xo3g0u4ASx2vwsKiENU=
+=======
+			6KO/V6aXfKjP+SoRqSCwouJHE/1R2pZnOmtdr+fi7YI=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Maui.Controls.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			njT7/eedgDnjXVsphlreH1Vn6LJbtPccKwE8NoRX5m4=
@@ -242,33 +290,49 @@
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
+=======
+			7j71Wf59eNtAFZcsnIzYCt3h+byNXuGs9o9dNp9D3xU=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Maui.Essentials.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			XkCDPPYAQWhJvqgwbN6tKTLKCTgd1m+k/wBcr0G8NYE=
+=======
+			yWlEG4BGiPMMbbzjyJN6XlyWu1orCSzi/RR28w4Xbxk=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Maui.Graphics.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			d8uIxxle7Tri6mGAiuMYSE1i6IdiJxTUlyJci9Iw0rs=
+=======
+			OySxCDKsQKgeA+XcY8fLccR9nZIy0uFOXg7JhJQbgqk=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Maui.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			KK5wA2/BgGvN73Ee2U64vzZ2Rdm2WcP5eDSGQipvx0o=
+=======
+			bVOGd21OctMMczKVSsUUAR9fK56MkntleluY/IZIHSM=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.VisualBasic.Core.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			u68kw7HM8sRVP6OjvpUs3prEavNMw9GPS8ePvr0+rYM=
@@ -278,12 +342,16 @@
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
+=======
+			u68kw7HM8sRVP6OjvpUs3prEavNMw9GPS8ePvr0+rYM=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.VisualBasic.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			sltPGkmt4JpWQJX/ofcgTRsRt6OvyVg2pcPuyXqDvSU=
@@ -293,12 +361,16 @@
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
+=======
+			sltPGkmt4JpWQJX/ofcgTRsRt6OvyVg2pcPuyXqDvSU=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Win32.Primitives.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			CCj5s38eyoNmr0KCyNbJSaTl9dSu9+rm7//KMvJ6PK0=
@@ -308,6 +380,9 @@
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
+=======
+			CCj5s38eyoNmr0KCyNbJSaTl9dSu9+rm7//KMvJ6PK0=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Win32.Registry.dll</key>
@@ -316,12 +391,16 @@
 			<data>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			qYPzNfleSCvcnHUqpXjpupdF+jwRT3KdMBpFhNKxVGU=
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+=======
+			qYPzNfleSCvcnHUqpXjpupdF+jwRT3KdMBpFhNKxVGU=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/Newtonsoft.Json.dll</key>
@@ -329,6 +408,9 @@
 			<key>hash2</key>
 			<data>
 			cs8pHUurDt0IqbB8YXPh560au3q3J/1wRL9jBddRVmE=
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			</data>
 		</dict>
@@ -338,12 +420,16 @@
 			<data>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			RzmRavQLgkMr2a5lCTW3Y3XYQsi5UcGMcI07f8ji4RE=
 =======
 			/5xtwm9HN8SL8/8z0Y5C0uJ63h1WqEmP0Z7ea1Vj4rs=
 >>>>>>> Stashed changes
 =======
 			ZZQjJPZ41CbnsZ9aJL/sGDV2oUQVsJie1iXh/FZqyhs=
+>>>>>>> Stashed changes
+=======
+			j/4HQI8o90gUT09I41GR7ARUgQDLH9uh27x3BAl8nEY=
 >>>>>>> Stashed changes
 			</data>
 		</dict>
@@ -353,12 +439,16 @@
 			<data>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			rPAN/u0Bxy86IIm2IU9z4e91A4L9O9z8lRaWS7batbM=
 =======
 			o9qeiPx8U3D9oN78xdn+Hx3BNo5bHVm4ju5y/sZfP/k=
 >>>>>>> Stashed changes
 =======
 			KGzBD+heV8syYW+RhEHH2cZMuYEzfrLQFbl+oFXzJgI=
+>>>>>>> Stashed changes
+=======
+			2LhemBdj9ZAHP3+uVw/ZqC0jwhumPbobwE2bQvptTs0=
 >>>>>>> Stashed changes
 			</data>
 		</dict>
@@ -368,12 +458,16 @@
 			<data>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			5DnUtV5d96d1yDgFvRdPnozYtrME1/zGe79kfoFR2u4=
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
+=======
+			5DnUtV5d96d1yDgFvRdPnozYtrME1/zGe79kfoFR2u4=
 >>>>>>> Stashed changes
 			</data>
 		</dict>
@@ -383,12 +477,16 @@
 			<data>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			FdOpuF5MSzz/d/XK9HAm2klRWGg795tODR3xQ7cPUg4=
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
+=======
+			FdOpuF5MSzz/d/XK9HAm2klRWGg795tODR3xQ7cPUg4=
 >>>>>>> Stashed changes
 			</data>
 		</dict>
@@ -398,12 +496,16 @@
 			<data>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			V3ujw6EQi9z7iHTitUlPNFTJgCLkzSBx3vnJJFuN934=
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
+=======
+			V3ujw6EQi9z7iHTitUlPNFTJgCLkzSBx3vnJJFuN934=
 >>>>>>> Stashed changes
 			</data>
 		</dict>
@@ -982,7 +1084,10 @@
 			</data>
 		</dict>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		<key>MonoBundle/System.Reactive.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -990,6 +1095,9 @@
 			DGRJ/1LpbsyfraCrxSrhsO8daPSmqo+CURp0EeYBhZk=
 			</data>
 		</dict>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		<key>MonoBundle/System.Reflection.DispatchProxy.dll</key>
 		<dict>
@@ -1118,7 +1226,10 @@
 			</data>
 		</dict>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		<key>MonoBundle/System.Runtime.InteropServices.WindowsRuntime.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1126,6 +1237,9 @@
 			ZwoUftH42mRHleZUoSuHPAlCgdaknRpq8Xa2g4tZPlU=
 			</data>
 		</dict>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		<key>MonoBundle/System.Runtime.InteropServices.dll</key>
 		<dict>
@@ -1532,12 +1646,16 @@
 			<data>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			qnCL34JmwlO7gyeYmSrk1Z0u6ytDaACV0MXtsnarwbY=
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
+=======
+			qnCL34JmwlO7gyeYmSrk1Z0u6ytDaACV0MXtsnarwbY=
 >>>>>>> Stashed changes
 			</data>
 		</dict>
@@ -1554,12 +1672,16 @@
 			<data>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			UYBgm2eduvMCWTliUcl318YqSMD3lImc247xRKSYF5Q=
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 >>>>>>> Stashed changes
 =======
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+>>>>>>> Stashed changes
+=======
+			UYBgm2eduvMCWTliUcl318YqSMD3lImc247xRKSYF5Q=
 >>>>>>> Stashed changes
 			</data>
 		</dict>
@@ -1602,7 +1724,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			eVGv9cPNV5X4ABdZIazHZ5iMdUmGR32ZsAr/efbehEw=
+=======
+			Mphw/iCv9/N/0iZLLYtr+xrlt/im3PS6fdBzM9s5Wac=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>MonoBundle/mscorlib.dll</key>
@@ -1670,7 +1796,10 @@
 		</dict>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 		<key>Resources/addcaricon.png</key>
@@ -1695,6 +1824,9 @@
 			</data>
 		</dict>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1707,7 +1839,10 @@
 		</dict>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 		<key>Resources/dog.png</key>
@@ -1718,6 +1853,9 @@
 			</data>
 		</dict>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1742,15 +1880,29 @@
 			06Dw48r2qORp1zVQzu1FMEqEQpN18taU/bp0JACYc40=
 			</data>
 		</dict>
+<<<<<<< Updated upstream
+=======
+		<key>Resources/logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			U0ja57Yj76YY6vjbN64u/p+6kOY6k0yrRZ+G7auEJCY=
+			</data>
+		</dict>
+>>>>>>> Stashed changes
 		<key>Resources/profile.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			sW/HubWAqg38LlQ8IEbIQx1csG/TsAvXG5jy5DjbChM=
 =======
 			cr3OevN4TwRf5wEc2HLSaGZnyYqsVjtqDPjr4SEs5HI=
+>>>>>>> Stashed changes
+=======
+			sW/HubWAqg38LlQ8IEbIQx1csG/TsAvXG5jy5DjbChM=
 >>>>>>> Stashed changes
 =======
 			sW/HubWAqg38LlQ8IEbIQx1csG/TsAvXG5jy5DjbChM=

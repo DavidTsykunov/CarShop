@@ -24677,6 +24677,7 @@ namespace Shop
 			public const int nav_app_bar_open_drawer_description = 2131689611;
 			
 			// aapt resource value: 0x7F0F008C
+<<<<<<< Updated upstream
 			public const int password_toggle_content_description = 2131689612;
 			
 			// aapt resource value: 0x7F0F008D
@@ -24699,6 +24700,30 @@ namespace Shop
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
+>>>>>>> Stashed changes
+=======
+			public const int overflow_tab_title = 2131689612;
+			
+			// aapt resource value: 0x7F0F008D
+			public const int password_toggle_content_description = 2131689613;
+			
+			// aapt resource value: 0x7F0F008E
+			public const int path_password_eye = 2131689614;
+			
+			// aapt resource value: 0x7F0F008F
+			public const int path_password_eye_mask_strike_through = 2131689615;
+			
+			// aapt resource value: 0x7F0F0090
+			public const int path_password_eye_mask_visible = 2131689616;
+			
+			// aapt resource value: 0x7F0F0091
+			public const int path_password_strike_through = 2131689617;
+			
+			// aapt resource value: 0x7F0F0092
+			public const int search_menu_title = 2131689618;
+			
+			// aapt resource value: 0x7F0F0093
+			public const int status_bar_notification_info_overflow = 2131689619;
 >>>>>>> Stashed changes
 			
 			static String()

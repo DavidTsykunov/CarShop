@@ -173,7 +173,11 @@ public final class R {
 	public static final class string {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		public static final int status_bar_notification_info_overflow = 0x7f0e0094;
+=======
+		public static final int status_bar_notification_info_overflow = 0x7f0f0093;
+>>>>>>> Stashed changes
 	}
 	public static final class style {
 		public static final int TextAppearance_Compat_Notification = 0x7f0f01ab;

@@ -3187,6 +3187,7 @@ public final class R {
 		public static final int mtrl_picker_toggle_to_day_selection = 0x7f0f007d;
 		public static final int mtrl_picker_toggle_to_text_input_mode = 0x7f0f007e;
 		public static final int mtrl_picker_toggle_to_year_selection = 0x7f0f007f;
+<<<<<<< Updated upstream
 		public static final int password_toggle_content_description = 0x7f0f008c;
 		public static final int path_password_eye = 0x7f0f008d;
 		public static final int path_password_eye_mask_strike_through = 0x7f0f008e;
@@ -3194,6 +3195,15 @@ public final class R {
 		public static final int path_password_strike_through = 0x7f0f0090;
 		public static final int search_menu_title = 0x7f0f0091;
 		public static final int status_bar_notification_info_overflow = 0x7f0f0092;
+=======
+		public static final int password_toggle_content_description = 0x7f0f008d;
+		public static final int path_password_eye = 0x7f0f008e;
+		public static final int path_password_eye_mask_strike_through = 0x7f0f008f;
+		public static final int path_password_eye_mask_visible = 0x7f0f0090;
+		public static final int path_password_strike_through = 0x7f0f0091;
+		public static final int search_menu_title = 0x7f0f0092;
+		public static final int status_bar_notification_info_overflow = 0x7f0f0093;
+>>>>>>> Stashed changes
 	}
 	public static final class style {
 		public static final int AlertDialog_AppCompat = 0x7f100000;

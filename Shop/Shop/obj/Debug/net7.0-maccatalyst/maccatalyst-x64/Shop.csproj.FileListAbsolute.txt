@@ -2,7 +2,13 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Shop.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Shop.pdb
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Firebase.dll
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/LiteDB.dll
+>>>>>>> Stashed changes
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Firebase.Auth.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Firebase.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/LiteDB.dll
 >>>>>>> Stashed changes
@@ -17,6 +23,12 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.Primitives.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Maui.Graphics.dll
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Newtonsoft.Json.dll
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reactive.dll
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.InteropServices.WindowsRuntime.dll
+>>>>>>> Stashed changes
 =======
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Newtonsoft.Json.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reactive.dll
@@ -230,6 +242,12 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mauisplash.stamp
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/addcaricon.png
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/addcaricon@2x.png
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/addcaricon@3x.png
+>>>>>>> Stashed changes
 =======
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/addcaricon.png
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/addcaricon@2x.png
@@ -260,11 +278,16 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/profile@3x.png
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/dog.png
 >>>>>>> Stashed changes
 =======
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/dog.png
+>>>>>>> Stashed changes
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/dog.png
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/logo.png
 >>>>>>> Stashed changes
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/search.png
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/search@2x.png

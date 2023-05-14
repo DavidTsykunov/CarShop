@@ -8,6 +8,12 @@
             Spacing="25"
             Padding="30,0"
             VerticalOptions="Center">
+        <Image
+                x:Name = "myImage"
+                 Source="dog.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
 
         <Button
                 x:Name="NewCar"
@@ -20,6 +26,13 @@
             Text="Дабавить Машину"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+         <Button
+                x:Name="PickImage"
+                Text="Pick Image"
+                SemanticProperties.Hint="Counts the number of times you click"
+               
+                HorizontalOptions="Center" />
     </VerticalStackLayout>
         </ScrollView>
 </ContentPage>

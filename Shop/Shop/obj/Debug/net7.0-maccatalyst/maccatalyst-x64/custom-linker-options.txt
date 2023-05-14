@@ -197,7 +197,11 @@ MonoLibrary=/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.mac
 MonoLibrary=/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.maccatalyst-x64/7.0.5/runtimes/maccatalyst-x64/native/libmonosgen-2.0.dylib
 				MtouchFloat32=
 				Optimize=
+<<<<<<< Updated upstream
 				PartialStaticRegistrarLibrary=/usr/local/share/dotnet/packs/Microsoft.MacCatalyst.Runtime.maccatalyst-x64/16.2.2054/runtimes/maccatalyst-x64/native/Microsoft.MacCatalyst.registrar.a
+=======
+				PartialStaticRegistrarLibrary=/usr/local/share/dotnet/packs/Microsoft.MacCatalyst.Runtime.maccatalyst-x64/16.4.7054/runtimes/maccatalyst-x64/native/Microsoft.MacCatalyst.registrar.a
+>>>>>>> Stashed changes
 				Platform=MacCatalyst
 				PlatformAssembly=Microsoft.MacCatalyst.dll
 				RelativeAppBundlePath=../Shop.app/
@@ -205,11 +209,19 @@ MonoLibrary=/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.mac
 				RequirePInvokeWrappers=
 				RuntimeConfigurationFile=runtimeconfig.bin
 				SdkDevPath=/Applications/Xcode.app/Contents/Developer
+<<<<<<< Updated upstream
 				SdkRootDirectory=/usr/local/share/dotnet/packs/Microsoft.MacCatalyst.Sdk/16.2.2054/
+=======
+				SdkRootDirectory=/usr/local/share/dotnet/packs/Microsoft.MacCatalyst.Sdk/16.4.7054/
+>>>>>>> Stashed changes
 				SdkVersion=13.3
 				TargetArchitectures=x86_64
 				TargetFramework=.NETCoreApp,Version=v7.0,Profile=maccatalyst
 				UseLlvm=False
 				Verbosity=0
+<<<<<<< Updated upstream
 				XamarinNativeLibraryDirectory=/usr/local/share/dotnet/packs/Microsoft.MacCatalyst.Runtime.maccatalyst-x64/16.2.2054/runtimes/maccatalyst-x64/native
+=======
+				XamarinNativeLibraryDirectory=/usr/local/share/dotnet/packs/Microsoft.MacCatalyst.Runtime.maccatalyst-x64/16.4.7054/runtimes/maccatalyst-x64/native
+>>>>>>> Stashed changes
 				XamarinRuntime=MonoVM

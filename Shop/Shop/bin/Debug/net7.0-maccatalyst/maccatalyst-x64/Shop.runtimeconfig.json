@@ -8,7 +8,11 @@
       },
       {
         "name": "Microsoft.MacCatalyst",
+<<<<<<< Updated upstream
         "version": "16.2.2054"
+=======
+        "version": "16.4.7054"
+>>>>>>> Stashed changes
       },
       {
         "name": "Microsoft.Maui.Core",

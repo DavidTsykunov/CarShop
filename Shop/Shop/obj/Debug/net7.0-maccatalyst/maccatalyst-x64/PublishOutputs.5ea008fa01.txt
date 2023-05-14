@@ -1,6 +1,12 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../Shop.app/Contents/MonoBundle/icudt.dat
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../Shop.app/Contents/MonoBundle/Firebase.dll
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../Shop.app/Contents/MonoBundle/LiteDB.dll
+>>>>>>> Stashed changes
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../Shop.app/Contents/MonoBundle/Firebase.Auth.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../Shop.app/Contents/MonoBundle/Firebase.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../Shop.app/Contents/MonoBundle/LiteDB.dll
 >>>>>>> Stashed changes
@@ -15,6 +21,12 @@
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../Shop.app/Contents/MonoBundle/Microsoft.Extensions.Primitives.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../Shop.app/Contents/MonoBundle/Microsoft.Maui.Graphics.dll
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../Shop.app/Contents/MonoBundle/Newtonsoft.Json.dll
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../Shop.app/Contents/MonoBundle/System.Reactive.dll
+/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../Shop.app/Contents/MonoBundle/System.Runtime.InteropServices.WindowsRuntime.dll
+>>>>>>> Stashed changes
 =======
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../Shop.app/Contents/MonoBundle/Newtonsoft.Json.dll
 /Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../Shop.app/Contents/MonoBundle/System.Reactive.dll

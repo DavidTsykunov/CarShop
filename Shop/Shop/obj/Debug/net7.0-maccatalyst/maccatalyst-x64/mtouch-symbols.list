@@ -15,6 +15,10 @@ _xamarin_localized_string_format_9
 _xamarin_init_nsthread
 _xamarin_os_log
 _xamarin_UIApplicationMain
+<<<<<<< Updated upstream
+=======
+_xamarin_locate_assembly_resource
+>>>>>>> Stashed changes
 _xamarin_switch_gchandle
 _xamarin_mono_object_retain
 _xamarin_find_protocol_wrapper_type

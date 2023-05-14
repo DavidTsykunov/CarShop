@@ -50,12 +50,36 @@ build_metadata.AdditionalFiles.ManifestResourceName = Shop.Views.AddCarPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/AddCarPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/AddCarPage.xaml
 
+<<<<<<< Updated upstream
+=======
+[/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/Views/JoinPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Shop.Views.JoinPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/JoinPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/JoinPage.xaml
+
+[/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/Views/NewCarPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Shop.Views.NewCarPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/NewCarPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/NewCarPage.xaml
+
+>>>>>>> Stashed changes
 [/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/Views/ProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Shop.Views.ProfilePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/ProfilePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/ProfilePage.xaml
 
+<<<<<<< Updated upstream
+=======
+[/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/Views/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Shop.Views.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/RegisterPage.xaml
+
+>>>>>>> Stashed changes
 [/Users/aaaa/Documents/GitHub/CarShop/Shop/Shop/Views/SettingsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Shop.Views.SettingsPage.xaml
