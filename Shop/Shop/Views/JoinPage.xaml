@@ -3,10 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Shop.Views.JoinPage"
              Title="Войти"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.BackButtonTitle="True">
     <Grid>
         <StackLayout Margin="20">
-            <Image Source="logo.png" HeightRequest="100"  HorizontalOptions="StartAndExpand"/>
+            <ImageButton Source="backspace.svg" HeightRequest="40" WidthRequest="40" Margin="0" Padding="0" HorizontalOptions="Start"
+                    Clicked="OnGoBack"/>
+            <Image Source="logo.png" HeightRequest="100"/>
 
             <StackLayout Margin="0,40">
                 <Label FontSize="32" Text="Добро пожаловать"/>
@@ -47,10 +49,6 @@
 
                 <Button BackgroundColor="White" TextColor="{StaticResource Primary}" FontFamily="OpenSansRegular" 
                        FontSize="15" Text="Забыли пароль?" VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand" 
-                       />
-                <Button Clicked="OnGoToReg" FontFamily="OpenSansRegular" 
-                       FontSize="15" Text="Зарегестрируйтесь"  VerticalOptions="EndAndExpand" 
-                       HorizontalOptions="EndAndExpand" 
                        />
             </StackLayout>
         </StackLayout>

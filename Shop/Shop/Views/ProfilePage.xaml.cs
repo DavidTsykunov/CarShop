@@ -36,4 +36,8 @@ public partial class ProfilePage : ContentPage
     {
         await Navigation.PushModalAsync(new RegisterPage());
     }
+    private async void OnGoToJoin(object sender, EventArgs e)
+    {
+        await Navigation.PushModalAsync(new JoinPage());
+    }
 }

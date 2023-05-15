@@ -16,7 +16,9 @@
             <Entry TextColor="Black" BackgroundColor="White" x:Name="TitleEntry" Placeholder="Что-то нужно сделать..." />
             <Button Clicked="OnBtnClciked" Text="Ввести" />
         </HorizontalStackLayout>
-        
+
+        <Button BackgroundColor="White" TextColor="{StaticResource Primary}" BorderColor="{StaticResource Primary}" BorderWidth="1" Margin="0,15"
+                    Clicked="OnGoToJoin" Text="Войти" FontFamily="OpenSansBold"/>
         <Button Clicked="OnGoToReg" Text="Зарегестрироваться" />
         
         <CollectionView ItemsSource="{Binding TodoItems}">

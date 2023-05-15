@@ -3,10 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Shop.Views.RegisterPage"
              Title="Зарегестрироваться"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.BackButtonTitle="True">
     <Grid>
         <StackLayout Margin="20">
-            <Image Source="logo.png" HeightRequest="100"  HorizontalOptions="StartAndExpand"/>
+            <ImageButton Source="backspace.svg" HeightRequest="40" WidthRequest="40" Margin="0" Padding="0" HorizontalOptions="Start"
+                    Clicked="OnGoBack"/>
+
+            <Image Source="logo.png" HeightRequest="100"/>
 
             <StackLayout Margin="0,40">
                 <Label FontSize="32" Text="Добро пожаловать"/>
@@ -44,10 +47,6 @@
                     Text="Зарегестрироваться" FontFamily="OpenSansBold"/>
 
             <StackLayout Orientation="Horizontal">
-
-                <Button BackgroundColor="White" TextColor="{StaticResource Primary}" Clicked="OnGoToJoin" FontFamily="OpenSansRegular" 
-                       FontSize="15" Text="Уже есть аккаунт?" VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand" 
-                       />
             </StackLayout>
         </StackLayout>
     </Grid>

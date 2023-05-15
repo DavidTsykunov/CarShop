@@ -9,9 +9,8 @@ public partial class JoinPage : ContentPage
 		InitializeComponent();
         BindingContext = new LoginViewModel(Navigation);
     }
-    private async void OnGoToReg(object sender, EventArgs e)
-    {      
-        await Navigation.PushModalAsync(new RegisterPage());
+    private async void OnGoBack(object sender, EventArgs e)
+    {
+        await Navigation.PopModalAsync();
     }
-
 }

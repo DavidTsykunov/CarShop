@@ -49,7 +49,7 @@ public partial class AddCarPage : ContentPage
             Title = "123",
             Image = myImage.Source,
         });
-        await App.Current.MainPage.DisplayAlert("Alert", myImage.Source., "OK");
+        //await App.Current.MainPage.DisplayAlert("Alert", myImage.Source, "OK");
     }
 
 }
