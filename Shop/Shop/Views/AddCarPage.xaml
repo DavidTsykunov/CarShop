@@ -23,7 +23,6 @@
                 x:Name="NewCar"
                 Text="Добавить машину"
                 SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="Car"
                 HorizontalOptions="Center"
                 />
 
@@ -32,13 +31,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-            <CollectionView ItemsSource="{Binding TodoItems}">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Image Source="{Binding Image}" />
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
+           
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage> 
