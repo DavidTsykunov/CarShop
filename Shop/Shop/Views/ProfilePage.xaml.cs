@@ -9,6 +9,7 @@ public partial class ProfilePage : ContentPage
 {
     FirebaseClient firebaseClient = new FirebaseClient("https://car-shop-fde53-default-rtdb.europe-west1.firebasedatabase.app/");
     public ObservableCollection<TodoItem> TodoItems { get; set; } = new ObservableCollection<TodoItem>();
+    public Profile profile = new Profile();
     public ProfilePage()
 	{
 		InitializeComponent();

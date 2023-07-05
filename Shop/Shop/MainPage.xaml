@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Shop.MainPage"
              Title="Главная"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
 
-    <ScrollView
-        BackgroundColor="#a08be8">
+    <ScrollView>
         <VerticalStackLayout
             Spacing="25"
             Padding="30,0"

@@ -998,3 +998,4 @@ C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-android\resiz
 C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\backspace.png
 C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\backspace.png
 C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\backspace.png
+C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-android\resizetizer\r\drawable\backspace.png

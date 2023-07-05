@@ -6,7 +6,7 @@
              NavigationPage.BackButtonTitle="True">
     <Grid>
         <StackLayout Margin="20">
-            <ImageButton Source="backspace.svg" HeightRequest="40" WidthRequest="40" Margin="0" Padding="0" HorizontalOptions="Start"
+            <ImageButton Source="backspace.png" HeightRequest="40" WidthRequest="40" Margin="0" Padding="0" HorizontalOptions="Start"
                     Clicked="OnGoBack"/>
 
             <Image Source="logo.png" HeightRequest="100"/>

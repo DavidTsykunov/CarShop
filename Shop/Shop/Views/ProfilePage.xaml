@@ -4,8 +4,10 @@
              x:Class="Shop.Views.ProfilePage"
              Title="Профиль"
              NavigationPage.HasNavigationBar="False">
-    <VerticalStackLayout 
-        BackgroundColor="#a08be8">
+    <VerticalStackLayout>
+        <CollectionView ItemsSource="{Binding profile}">
+            
+        </CollectionView>
         <Label 
             Text="Вы не зарегестрировались!"
             VerticalOptions="Center" 
@@ -28,6 +30,7 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+        
         
         
     </VerticalStackLayout>

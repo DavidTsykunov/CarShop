@@ -5,8 +5,8 @@ public partial class App : Application
 	public App()
 	{
 		InitializeComponent();
-
-		MainPage = new NavigationPage(new AppShell());
+        Application.Current.UserAppTheme = AppTheme.Light;
+        MainPage = new NavigationPage(new AppShell());
 	}
 /*#if __IOS__
   private DisplayOrientation _lastOrientation;
