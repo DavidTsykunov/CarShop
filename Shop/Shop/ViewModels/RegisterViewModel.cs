@@ -1,67 +1,54 @@
-﻿using Firebase.Auth;
+﻿using System;
 using System.ComponentModel;
-using Shop.Views;
+using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
+using Shop.Helpers;
 
 namespace Shop.ViewModels
 {
-    internal class RegisterViewModel : INotifyPropertyChanged
+    public class RegisterViewModel : INotifyPropertyChanged
     {
-        public string webApiKey = "AIzaSyCXtTb_BIGOuCIZiBqqEZTzGZ8WtmqxEr4 ";
-
-        private INavigation _navigation;
         private string email;
+        public string Email
+        {
+            get { return email; }
+            set { SetProperty(ref email, value); }
+        }
+
         private string password;
+        public string Password
+        {
+            get { return password; }
+            set { SetProperty(ref password, value); }
+        }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public string Email
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
-            get => email;
-            set
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        protected bool SetProperty<T>(ref T backingStore, T value, [CallerMemberName] string propertyName = "",
+            Action onChanged = null)
+        {
+            if (EqualityComparer<T>.Default.Equals(backingStore, value))
+                return false;
+
+            backingStore = value;
+            onChanged?.Invoke();
+            OnPropertyChanged(propertyName);
+            return true;
+        }
+
+        public async Task<bool> Register()
+        {
+            if (!string.IsNullOrWhiteSpace(Email) && !string.IsNullOrWhiteSpace(Password))
             {
-                email = value;
-                RaisePropertyChanged("Email");
+                bool success = await FirebaseHelper.Register(Email, Password);
+                return success;
             }
+            return false;
         }
-
-        public string Password
-        {
-            get => password; set
-            {
-                password = value;
-                RaisePropertyChanged("Password");
-            }
-        }
-
-        public Command RegisterUser { get; }
-
-        private void RaisePropertyChanged(string v)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(v));
-        }
-
-        public RegisterViewModel(INavigation navigation)
-        {
-            this._navigation = navigation;
-
-            RegisterUser = new Command(RegisterUserTappedAsync);
-        }
-
-        private async void RegisterUserTappedAsync(object obj)
-        {
-            try
-            {
-                var authProvider = new FirebaseAuthProvider(new FirebaseConfig(webApiKey));
-                var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(Email, Password);
-                string token = auth.FirebaseToken;
-                if (token != null)
-                    await App.Current.MainPage.DisplayAlert("Alert", "User Registered successfully", "OK");
-                await _navigation.PopModalAsync();
-            }
-            catch (Exception ex)
-            {
-                await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
-            }
-        }
-    }   
+    }
 }

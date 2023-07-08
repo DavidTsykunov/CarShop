@@ -3,7 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Shop.Views.JoinPage"
              Title="Войти"
+             xmlns:viewModels="clr-namespace:Shop.ViewModels"
              NavigationPage.BackButtonTitle="True">
+    <ContentPage.BindingContext>
+        <viewModels:JoinViewModel />
+    </ContentPage.BindingContext>
     <Grid>
         <StackLayout Margin="20">
             <ImageButton Source="backspace.svg" HeightRequest="40" WidthRequest="40" Margin="0" Padding="0" HorizontalOptions="Start"
@@ -43,7 +47,7 @@
             </StackLayout>
 
             <Button BackgroundColor="White" TextColor="{StaticResource Primary}" BorderColor="{StaticResource Primary}" BorderWidth="1" Margin="0,15"
-                    Command="{Binding LoginBtn}" Text="Войти" FontFamily="OpenSansBold"/>
+                    Clicked="OnLoginClicked" Command="{Binding LoginBtn}" Text="Войти" FontFamily="OpenSansBold"/>
 
             <StackLayout Orientation="Horizontal">
 

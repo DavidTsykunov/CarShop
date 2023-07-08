@@ -1,6 +1,7 @@
 using Firebase.Database;
 using Firebase.Database.Query;
 using Newtonsoft.Json;
+using Shop.Helpers;
 using Shop.Model;
 using System.Collections.ObjectModel;
 
@@ -13,7 +14,6 @@ public partial class ProfilePage : ContentPage
 
     FirebaseClient firebaseClient = new FirebaseClient("https://car-shop-fde53-default-rtdb.europe-west1.firebasedatabase.app/");
     public ObservableCollection<TodoItem> TodoItems { get; set; } = new ObservableCollection<TodoItem>();
-    public Profile profile = new Profile();
     public ProfilePage()
 	{
 		InitializeComponent();
@@ -46,17 +46,28 @@ public partial class ProfilePage : ContentPage
     {
         await Navigation.PushModalAsync(new JoinPage());
     }
+    private async void OnLogoutClicked(object sender, EventArgs e)
+    {
+        FirebaseHelper.Logout();
+        CheckAuth();
+    }
     protected override void OnAppearing()
     {
+        base.OnAppearing();
         CheckAuth();
     }
 
     public void CheckAuth()
     {
-        if (IsAuth == false) Resources["authInfo"]= "Вы не вошли в аккаунт!";
+        if (FirebaseHelper.IsUserLoggedIn() == false)
+        {
+            IsAuth = false;
+            Resources["authInfo"] = "Вы не вошли в аккаунт!";
+        }
         else
         {
-            var userInfo = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(Preferences.Get("FreshFirebaseToken", ""));
+            IsAuth = true;
+            var userInfo = FirebaseHelper.GetUser();
             Resources["authInfo"] = userInfo.User.Email;
         }
     }

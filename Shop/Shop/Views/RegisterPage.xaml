@@ -43,7 +43,7 @@
                 </Grid>
             </StackLayout>
 
-            <Button Margin="0,15" Command="{Binding RegisterUser}"
+            <Button Margin="0,15" Clicked="OnRegisterUserClicked"
                     Text="Зарегестрироваться" FontFamily="OpenSansBold"/>
 
             <StackLayout Orientation="Horizontal">
