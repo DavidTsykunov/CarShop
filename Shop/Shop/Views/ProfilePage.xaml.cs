@@ -1,74 +1,80 @@
 using Firebase.Database;
-using Firebase.Database.Query;
-using Newtonsoft.Json;
 using Shop.Helpers;
 using Shop.Model;
-using System.Collections.ObjectModel;
+using System;
 
-namespace Shop.Views;
-
-public partial class ProfilePage : ContentPage
+namespace Shop.Views
 {
-    public static bool IsAuth = false;
+    public partial class ProfilePage : ContentPage
+    {
+        public static bool IsAuth = false;
 
+        FirebaseClient firebaseClient = new FirebaseClient("https://car-shop-fde53-default-rtdb.europe-west1.firebasedatabase.app/");
 
-    FirebaseClient firebaseClient = new FirebaseClient("https://car-shop-fde53-default-rtdb.europe-west1.firebasedatabase.app/");
-    public ObservableCollection<TodoItem> TodoItems { get; set; } = new ObservableCollection<TodoItem>();
-    public ProfilePage()
-	{
-		InitializeComponent();
-        BindingContext = this;
-        CheckAuth();
+        public UserProfile UserProfile { get; set; }
 
-        var collection = firebaseClient
-        .Child("Todo")
-        .AsObservable<TodoItem>()
-        .Subscribe((item) =>
+        public ProfilePage()
         {
-            if (item.Object != null)
-            {
-                TodoItems.Add(item.Object);
-            }
-        });
-    }
-    private void OnBtnClciked(object sender, EventArgs e)
-    {
-        firebaseClient.Child("Todo").PostAsync(new TodoItem
-        {
-            Title = TitleEntry.Text,
-        });
-    }
-    private async void OnGoToReg(object sender, EventArgs e)
-    {
-        await Navigation.PushModalAsync(new RegisterPage());
-    }
-    private async void OnGoToJoin(object sender, EventArgs e)
-    {
-        await Navigation.PushModalAsync(new JoinPage());
-    }
-    private async void OnLogoutClicked(object sender, EventArgs e)
-    {
-        FirebaseHelper.Logout();
-        CheckAuth();
-    }
-    protected override void OnAppearing()
-    {
-        base.OnAppearing();
-        CheckAuth();
-    }
-
-    public void CheckAuth()
-    {
-        if (FirebaseHelper.IsUserLoggedIn() == false)
-        {
-            IsAuth = false;
-            Resources["authInfo"] = "Вы не вошли в аккаунт!";
+            InitializeComponent();
+            BindingContext = this;
+            CheckAuth();
         }
-        else
+
+        private async void OnGoToReg(object sender, EventArgs e)
         {
-            IsAuth = true;
-            var userInfo = FirebaseHelper.GetUser();
-            Resources["authInfo"] = userInfo.User.Email;
+            await Navigation.PushModalAsync(new RegisterPage());
+        }
+
+        private async void OnGoToJoin(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new JoinPage());
+        }
+
+        private async void OnLogoutClicked(object sender, EventArgs e)
+        {
+            FirebaseHelper.Logout();
+            CheckAuth();
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            CheckAuth();
+            LoadUserProfile();
+        }
+
+        public void CheckAuth()
+        {
+            if (FirebaseHelper.IsUserLoggedIn() == false)
+            {
+                IsAuth = false;
+                Resources["authInfo"] = "Вы не вошли в аккаунт!";
+            }
+            else
+            {
+                IsAuth = true;
+                var userInfo = FirebaseHelper.GetUser();
+                Resources["authInfo"] = userInfo.User.Email;
+            }
+            Resources["IsAuth"] = IsAuth;
+        }
+
+        private void LoadUserProfile()
+        {
+            if (IsAuth)
+            {
+                var userInfo = FirebaseHelper.GetUser();
+
+                Resources["DisplayName"] = userInfo.User.DisplayName;
+                Resources["Email"] = userInfo.User.Email;
+                Resources["PhotoUrl"] = userInfo.User.PhotoUrl;
+            }
+            else
+            {
+                Resources["DisplayName"] = string.Empty;
+                Resources["Email"] = string.Empty;
+                Resources["PhotoUrl"] = string.Empty;
+            }
         }
     }
 }

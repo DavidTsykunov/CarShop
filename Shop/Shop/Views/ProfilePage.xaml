@@ -4,33 +4,27 @@
              x:Class="Shop.Views.ProfilePage"
              Title="Профиль"
              NavigationPage.HasNavigationBar="False">
-    <VerticalStackLayout>
+    <StackLayout>
         <Label 
             x:Name="AuthInfo"
             Text="{DynamicResource authInfo}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        <Image Source="profile.svg" />
 
-        <HorizontalStackLayout Spacing="15">
-            <Entry TextColor="Black" BackgroundColor="White" x:Name="TitleEntry" Placeholder="Что-то нужно сделать..." />
-            <Button Clicked="OnBtnClciked" Text="Ввести" />
-        </HorizontalStackLayout>
+        <Image Source="profile.png" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center" />
 
         <Button BackgroundColor="White" TextColor="{StaticResource Primary}" BorderColor="{StaticResource Primary}" BorderWidth="1" Margin="0,15"
                     Clicked="OnGoToJoin" Text="Войти" FontFamily="OpenSansBold"/>
-        <Button Clicked="OnGoToReg" Text="Зарегестрироваться" />
-        
-        
-        <CollectionView ItemsSource="{Binding TodoItems}">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Label Text="{Binding Title}" />
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+        <Button Clicked="OnGoToReg" Text="Зарегистрироваться" />
+        <Button Clicked="OnLogoutClicked" Text="Выйти" />
 
-
-
-    </VerticalStackLayout>
+        <Frame IsVisible="{DynamicResource IsAuth}" CornerRadius="10" Padding="10" Margin="20" BackgroundColor="Wheat">
+            <StackLayout>
+                <Label Text="Данные профиля:" FontSize="20" />
+                <Label Text="{DynamicResource DisplayName}" FontSize="16" />
+                <Label Text="{DynamicResource Email}" FontSize="16" />
+                <Image Source="{DynamicResource PhotoUrl}" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center" />
+            </StackLayout>
+        </Frame>
+    </StackLayout>
 </ContentPage>
