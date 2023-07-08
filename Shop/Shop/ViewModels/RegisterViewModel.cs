@@ -14,6 +14,12 @@ namespace Shop.ViewModels
             get { return email; }
             set { SetProperty(ref email, value); }
         }
+        private string displayName;
+        public string DisplayName
+        {
+            get { return displayName; }
+            set { SetProperty(ref displayName, value); }
+        }
 
         private string password;
         public string Password
@@ -43,9 +49,9 @@ namespace Shop.ViewModels
 
         public async Task<bool> Register()
         {
-            if (!string.IsNullOrWhiteSpace(Email) && !string.IsNullOrWhiteSpace(Password))
+            if (!string.IsNullOrWhiteSpace(DisplayName) && !string.IsNullOrWhiteSpace(Email) && !string.IsNullOrWhiteSpace(Password))
             {
-                bool success = await FirebaseHelper.Register(Email, Password);
+                bool success = await FirebaseHelper.Register(Email, Password, DisplayName);
                 return success;
             }
             return false;

@@ -4,50 +4,64 @@
              x:Class="Shop.Views.RegisterPage"
              Title="Зарегестрироваться"
              NavigationPage.BackButtonTitle="True">
-    <Grid>
-        <StackLayout Margin="20">
-            <ImageButton Source="backspace.png" HeightRequest="40" WidthRequest="40" Margin="0" Padding="0" HorizontalOptions="Start"
+    <ScrollView>
+        <Grid>
+            <StackLayout Margin="20">
+                <ImageButton Source="backspace.png" HeightRequest="40" WidthRequest="40" Margin="0" Padding="0" HorizontalOptions="Start"
                     Clicked="OnGoBack"/>
 
-            <Image Source="logo.png" HeightRequest="100"/>
+                <Image Source="logo.png" HeightRequest="100"/>
 
-            <StackLayout Margin="0,40">
-                <Label FontSize="32" Text="Добро пожаловать"/>
-                <Label FontFamily="OpenSansRegular" 
+                <StackLayout Margin="0,40">
+                    <Label FontSize="32" Text="Добро пожаловать"/>
+                    <Label FontFamily="OpenSansRegular" 
                        FontSize="16" Text="Зарегестрируйтесь, что-бы продолжить"/>
-            </StackLayout>
+                </StackLayout>
 
-            <StackLayout>
-                <Label FontFamily="OpenSansRegular"
+                <StackLayout>
+                    <Label FontFamily="OpenSansRegular"
                        FontSize="16" Text="Почта"/>
-                <Grid Margin="0,5">
-                    <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
-                    <Entry BackgroundColor="Transparent" Placeholder="Введите email" 
+                    <Grid Margin="0,5">
+                        <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
+                        <Entry BackgroundColor="Transparent" Placeholder="Введите email" 
                            Margin="5,0"
                            PlaceholderColor="Gray"
                            ClearButtonVisibility="WhileEditing"
                            Text="{Binding Email}"/>
 
-                </Grid>
+                    </Grid>
 
-                <Label FontFamily="OpenSansRegular"
+                    <Label FontFamily="OpenSansRegular"
                        FontSize="16" Text="Придумайте пароль"/>
-                <Grid Margin="0,5">
-                    <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
-                    <Entry BackgroundColor="Transparent" Placeholder="Введите пароль" 
+                    <Grid Margin="0,5">
+                        <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
+                        <Entry BackgroundColor="Transparent" Placeholder="Введите пароль" 
                            Margin="5,0"
                            PlaceholderColor="Gray" IsPassword="True"
                            ClearButtonVisibility="WhileEditing"
                            Text="{Binding Password}"/>
 
-                </Grid>
-            </StackLayout>
+                    </Grid>
+                    <StackLayout>
+                        <Label FontFamily="OpenSansRegular"
+                    FontSize="16" Text="Отображаемое имя"/>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
+                            <Entry BackgroundColor="Transparent" Placeholder="Введите отображаемое имя" 
+               Margin="5,0"
+               PlaceholderColor="Gray"
+               ClearButtonVisibility="WhileEditing"
+               Text="{Binding DisplayName}"/>
+                        </Grid>
+                    </StackLayout>
+                </StackLayout>
 
-            <Button Margin="0,15" Clicked="OnRegisterUserClicked"
+                <Button Margin="0,15" Clicked="OnRegisterUserClicked"
                     Text="Зарегестрироваться" FontFamily="OpenSansBold"/>
 
-            <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                </StackLayout>
             </StackLayout>
-        </StackLayout>
-    </Grid>
+        </Grid>
+    </ScrollView>
 </ContentPage>

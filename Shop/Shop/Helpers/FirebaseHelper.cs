@@ -51,12 +51,12 @@ namespace Shop.Helpers
             }
             return null;
         }
-        public static async Task<bool> Register(string email, string password)
+        public static async Task<bool> Register(string email, string password, string displayName)
         {
             try
             {
                 var authProvider = new FirebaseAuthProvider(new FirebaseConfig("AIzaSyCXtTb_BIGOuCIZiBqqEZTzGZ8WtmqxEr4"));
-                var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(email, password);
+                var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(email, password, displayName);
 
                 // Сохранение токена аутентификации
                 var serializedAuth = JsonConvert.SerializeObject(auth);
