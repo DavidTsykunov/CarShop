@@ -1,7 +1,10 @@
 using Firebase.Database;
+using Firebase.Database.Query;
+using Firebase.Storage;
 using Shop.Helpers;
 using Shop.Model;
 using System;
+using System.IO;
 
 namespace Shop.Views
 {
@@ -9,7 +12,8 @@ namespace Shop.Views
     {
         public static bool IsAuth = false;
 
-        FirebaseClient firebaseClient = new FirebaseClient("https://car-shop-fde53-default-rtdb.europe-west1.firebasedatabase.app/");
+        private FirebaseClient firebaseClient = new FirebaseClient("https://car-shop-fde53-default-rtdb.europe-west1.firebasedatabase.app/");
+        private FirebaseStorage firebaseStorage = new FirebaseStorage("car-shop-fde53.appspot.com");
 
         public UserProfile UserProfile { get; set; }
 
@@ -74,6 +78,43 @@ namespace Shop.Views
                 Resources["DisplayName"] = string.Empty;
                 Resources["Email"] = string.Empty;
                 Resources["PhotoUrl"] = string.Empty;
+            }
+        }
+
+        private async void UploadAvatar(object sender, EventArgs e)
+        {
+            try
+            {
+                var file = await FilePicker.PickAsync(new PickOptions
+                {
+                    FileTypes = FilePickerFileType.Images,
+                    PickerTitle = "Select an image"
+                });
+
+                if (file != null)
+                {
+                    using (var stream = await file.OpenReadAsync())
+                    {
+                        var fileName = $"{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
+                        var imageUrl = await firebaseStorage.Child("avatars").Child(fileName).PutAsync(stream);
+                        var photoUrl = await firebaseStorage.Child("avatars").Child(fileName).GetDownloadUrlAsync();
+
+                        // Update the user's profile with the new photo URL
+                        var userInfo = FirebaseHelper.GetUser();
+                        userInfo.User.PhotoUrl = photoUrl;
+
+                        // Save the updated user profile in the database
+                        await firebaseClient.Child("users").Child(userInfo.User.Email).PutAsync(userInfo);
+
+                        // Update the UI with the new photo URL
+                        Resources["PhotoUrl"] = photoUrl;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle any errors
+                Console.WriteLine($"Error uploading avatar: {ex.Message}");
             }
         }
     }

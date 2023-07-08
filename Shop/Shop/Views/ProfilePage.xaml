@@ -4,7 +4,8 @@
              x:Class="Shop.Views.ProfilePage"
              Title="Профиль"
              NavigationPage.HasNavigationBar="False">
-    <StackLayout>
+    <ScrollView>
+        <StackLayout>
         <Label 
             x:Name="AuthInfo"
             Text="{DynamicResource authInfo}"
@@ -18,13 +19,15 @@
         <Button Clicked="OnGoToReg" Text="Зарегистрироваться" />
         <Button Clicked="OnLogoutClicked" Text="Выйти" />
 
-        <Frame IsVisible="{DynamicResource IsAuth}" CornerRadius="10" Padding="10" Margin="20" BackgroundColor="Wheat">
-            <StackLayout>
-                <Label Text="Данные профиля:" FontSize="20" />
-                <Label Text="{DynamicResource DisplayName}" FontSize="16" />
-                <Label Text="{DynamicResource Email}" FontSize="16" />
-                <Image Source="{DynamicResource PhotoUrl}" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center" />
-            </StackLayout>
-        </Frame>
-    </StackLayout>
+            <Frame IsVisible="{DynamicResource IsAuth}" CornerRadius="10" Padding="10" Margin="20" BackgroundColor="Wheat">
+                <StackLayout>
+                    <Label Text="Данные профиля:" FontSize="20" />
+                    <Label Text="{DynamicResource DisplayName}" FontSize="16" />
+                    <Label Text="{DynamicResource Email}" FontSize="16" />
+                    <Image Source="{DynamicResource PhotoUrl}" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center" />
+                    <Button Clicked="UploadAvatar" Text="Загрузить аватарку" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
