@@ -1,5 +1,6 @@
 ﻿using Firebase.Auth;
 using System.ComponentModel;
+using Shop.Views;
 
 namespace Shop.ViewModels
 {
@@ -55,8 +56,7 @@ namespace Shop.ViewModels
                 string token = auth.FirebaseToken;
                 if (token != null)
                     await App.Current.MainPage.DisplayAlert("Alert", "User Registered successfully", "OK");
-
-                 await _navigation.PopModalAsync();
+                await _navigation.PopModalAsync();
             }
             catch (Exception ex)
             {

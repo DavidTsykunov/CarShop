@@ -50,6 +50,7 @@ namespace Shop.ViewModels
                 var serializedContent = JsonConvert.SerializeObject(content);
                 Preferences.Set("FreshFirebaseToken", serializedContent);
                 await App.Current.MainPage.DisplayAlert("Alert", "User Login successfully", "OK");
+                ProfilePage.IsAuth = true;
 
                 await _navigation.PopModalAsync();
 

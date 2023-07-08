@@ -9,7 +9,7 @@ public partial class AddCarPage : ContentPage
     public AddCarPage()
     {
         InitializeComponent();
-        BindingContext = this;
+        BindingContext = this;      
     }
 
 }

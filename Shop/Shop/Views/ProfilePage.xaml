@@ -5,11 +5,9 @@
              Title="Профиль"
              NavigationPage.HasNavigationBar="False">
     <VerticalStackLayout>
-        <CollectionView ItemsSource="{Binding profile}">
-            
-        </CollectionView>
         <Label 
-            Text="Вы не зарегестрировались!"
+            x:Name="AuthInfo"
+            Text="{DynamicResource authInfo}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Image Source="profile.svg" />
@@ -23,6 +21,7 @@
                     Clicked="OnGoToJoin" Text="Войти" FontFamily="OpenSansBold"/>
         <Button Clicked="OnGoToReg" Text="Зарегестрироваться" />
         
+        
         <CollectionView ItemsSource="{Binding TodoItems}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
@@ -30,8 +29,8 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        
-        
-        
+
+
+
     </VerticalStackLayout>
 </ContentPage>
