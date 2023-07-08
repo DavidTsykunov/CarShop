@@ -4,34 +4,82 @@
              x:Class="Shop.Views.AddCarPage"
              Title="Добавить Машину"
              NavigationPage.HasNavigationBar="False">
+    <ContentPage.Resources>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="Margin" Value="0,10,0,0" />
+            </Style>
+            <Style TargetType="Entry">
+                <Setter Property="HeightRequest" Value="40" />
+                <Setter Property="Margin" Value="0,5,0,0" />
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="HeightRequest" Value="50" />
+                <Setter Property="Margin" Value="0,20,0,0" />
+            </Style>
+            <Style TargetType="Image">
+                <Setter Property="HeightRequest" Value="200" />
+                <Setter Property="Margin" Value="0,20,0,0" />
+            </Style>
+        </ContentPage.Resources>
     <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Start"
-            HorizontalOptions="Start">
-            <Image
-                x:Name = "myImage"
-                 Source="dog.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="100"
-                VerticalOptions="Start"
-                HorizontalOptions="Start"
-                />
+       
 
-            <Button
-                x:Name="NewCar"
-                Text="Добавить машину"
-                SemanticProperties.Hint="Counts the number of times you click"
-                HorizontalOptions="Center"
-                />
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="20">
+            <Label Text="Добавить автомобиль" FontSize="24" HorizontalOptions="CenterAndExpand" Margin="0,0,0,20"/>
 
-            <Label 
-            Text="Дабавить Машину"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            <Label Text="VIN или номер кузова" />
+            <Entry Placeholder="Введите VIN или номер кузова" x:Name="VinNumberEntry" />
 
-           
-        </VerticalStackLayout>
+            <Label Text="Номер СТС" />
+            <Entry Placeholder="Введите номер СТС" x:Name="StsNumberEntry" />
+
+            <Label Text="Госномер" />
+            <Entry Placeholder="Введите госномер" x:Name="LicensePlateEntry" />
+
+            <Label Text="Марка и модель" />
+            <Entry Placeholder="Введите марку и модель" x:Name="BrandModelEntry" />
+
+            <Label Text="Расположение руля" />
+            <Entry Placeholder="Введите расположение руля" x:Name="SteeringPositionEntry" />
+
+            <Label Text="Год выпуска" />
+            <Entry Placeholder="Введите год выпуска" x:Name="YearEntry" />
+
+            <Label Text="Тип кузова" />
+            <Entry Placeholder="Введите тип кузова" x:Name="BodyTypeEntry" />
+
+            <Label Text="Пробег (км)" />
+            <Entry Placeholder="Введите пробег в километрах" x:Name="MileageEntry" />
+
+            <Label Text="Цвет кузова" />
+            <Entry Placeholder="Введите цвет кузова" x:Name="ExteriorColorEntry" />
+
+            <Label Text="ГБО" />
+            <Switch x:Name="GboSwitch" />
+
+            <Label Text="Нужен ли ремонт или не на ходу" />
+            <Switch x:Name="RepairNeededSwitch" />
+
+            <Label Text="Описание" />
+            <Editor Placeholder="Введите описание" x:Name="DescriptionEditor" HeightRequest="100" />
+
+            <Label Text="Цена продажи" />
+            <Entry Placeholder="Введите цену продажи" x:Name="PriceEntry" Keyboard="Numeric" />
+
+            <Label Text="Возможен ли обмен" />
+            <Switch x:Name="TradePossibleSwitch" />
+
+            <Label Text="Город" />
+            <Entry Placeholder="Введите город" x:Name="CityEntry" />
+
+            <Label Text="Телефон" />
+            <Entry Placeholder="Введите номер телефона" x:Name="PhoneEntry" Keyboard="Telephone" />
+    
+            <Button Text="Выбрать фотографии" Clicked="OnSelectPhotosClicked" />
+            <Image x:Name="SelectedImage" />
+
+            <Button Text="Создать объявление" Clicked="OnCreateListingClicked" />
+        </StackLayout>
     </ScrollView>
-</ContentPage> 
+</ContentPage>

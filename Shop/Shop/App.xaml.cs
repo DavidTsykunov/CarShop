@@ -1,10 +1,16 @@
-﻿namespace Shop;
+﻿using Firebase.Database;
+
+namespace Shop;
 
 public partial class App : Application
 {
-	public App()
+    public static FirebaseClient Firebase { get; private set; }
+    public App()
 	{
 		InitializeComponent();
+
+        Firebase = new FirebaseClient("https://car-shop-fde53-default-rtdb.europe-west1.firebasedatabase.app/");
+
         Application.Current.UserAppTheme = AppTheme.Light;
         MainPage = new NavigationPage(new AppShell());
 	}
