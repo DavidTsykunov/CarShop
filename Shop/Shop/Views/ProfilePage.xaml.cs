@@ -12,9 +12,6 @@ namespace Shop.Views
     {
         public static bool IsAuth = false;
 
-        private FirebaseClient firebaseClient = new FirebaseClient("https://car-shop-fde53-default-rtdb.europe-west1.firebasedatabase.app/");
-        private FirebaseStorage firebaseStorage = new FirebaseStorage("car-shop-fde53.appspot.com");
-
         public UserProfile UserProfile { get; set; }
 
         public ProfilePage()
@@ -67,7 +64,7 @@ namespace Shop.Views
         {
             if (IsAuth)
             {
-                var userInfo = FirebaseHelper.FirebaseClient.Child("users").Child(FirebaseHelper.AuthProvider.User.Uid).Child("Info").OnceSingleAsync<Firebase.Auth.UserInfo>().Result;
+                var userInfo = FirebaseHelper.Database.Child("users").Child(FirebaseHelper.AuthProvider.User.Uid).Child("Info").OnceSingleAsync<Firebase.Auth.UserInfo>().Result;
 
                 Resources["DisplayName"] = userInfo.DisplayName;
                 Resources["Email"] = userInfo.Email;
@@ -96,15 +93,15 @@ namespace Shop.Views
                     using (var stream = await file.OpenReadAsync())
                     {
                         var fileName = $"{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
-                        var imageUrl = await firebaseStorage.Child("avatars").Child(fileName).PutAsync(stream);
-                        var photoUrl = await firebaseStorage.Child("avatars").Child(fileName).GetDownloadUrlAsync();
+                        var imageUrl = await FirebaseHelper.Storage.Child("avatars").Child(fileName).PutAsync(stream);
+                        var photoUrl = await FirebaseHelper.Storage.Child("avatars").Child(fileName).GetDownloadUrlAsync();
 
                         // Update the user's profile with the new photo URL
                         var userInfo = FirebaseHelper.AuthProvider.User;
                         userInfo.Info.PhotoUrl = photoUrl;
 
                         // Save the updated user profile in the database
-                        await firebaseClient.Child("users").Child(userInfo.Uid).PutAsync(userInfo);
+                        await FirebaseHelper.Database.Child("users").Child(userInfo.Uid).PutAsync(userInfo);
 
                         // Update the UI with the new photo URL
                         Resources["PhotoUrl"] = userInfo.Info.PhotoUrl;

@@ -7,6 +7,7 @@ using Firebase.Auth;
 using Firebase.Auth.Providers;
 using Firebase.Database;
 using Firebase.Database.Query;
+using Firebase.Storage;
 using Newtonsoft.Json;
 using Shop.Model;
 
@@ -15,8 +16,8 @@ namespace Shop.Helpers
     public class FirebaseHelper
     {
         private static readonly string FirebaseAuthKey = "FreshFirebaseToken";
-        public static FirebaseClient FirebaseClient = new FirebaseClient(baseUrl: "https://car-shop-fde53-default-rtdb.europe-west1.firebasedatabase.app/");
-
+        public static FirebaseClient Database = new FirebaseClient(baseUrl: "https://car-shop-fde53-default-rtdb.europe-west1.firebasedatabase.app/");
+        public static FirebaseStorage Storage = new FirebaseStorage("car-shop-fde53.appspot.com");
         public static FirebaseAuthClient AuthProvider = new FirebaseAuthClient(new FirebaseAuthConfig
         {
             ApiKey = "AIzaSyCXtTb_BIGOuCIZiBqqEZTzGZ8WtmqxEr4",
@@ -70,7 +71,7 @@ namespace Shop.Helpers
                 // Сохранение токена аутентификации
                 var serializedAuth = JsonConvert.SerializeObject(auth);
                 Preferences.Set(FirebaseAuthKey, serializedAuth);
-                await FirebaseClient.Child("users").Child(auth.User.Uid).PutAsync(auth.User);
+                await Database.Child("users").Child(auth.User.Uid).PutAsync(auth.User);
 
                 return true;
             }
