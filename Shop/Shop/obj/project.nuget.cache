@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OjX/Sy3JuwlFRDQ3+uceBY9oHozH3RFkk65etK9aggEiQrCRrUWnqfSzMiK1SvsBoJ3VgE1L4BToJwb5PmdVSQ==",
+  "dgSpecHash": "V6CBKB9aSpeqirdKU3s0oF5x5bPsNY3gNgNdOX4SH2d8NxgUYEE4K7Z5IvIQ99pIjdfNDv2Ju3tucfrPnwlP4Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\david\\Documents\\GitHub\\CarShop\\Shop\\Shop\\Shop.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\david\\.nuget\\packages\\firebaseauthentication.net\\3.7.2\\firebaseauthentication.net.3.7.2.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\firebaseauthentication.net\\4.0.2\\firebaseauthentication.net.4.0.2.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\firebasedatabase.net\\4.2.0\\firebasedatabase.net.4.2.0.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\firebasestorage.net\\1.0.3\\firebasestorage.net.1.0.3.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\google.api.commonprotos\\2.7.0\\google.api.commonprotos.2.7.0.nupkg.sha512",

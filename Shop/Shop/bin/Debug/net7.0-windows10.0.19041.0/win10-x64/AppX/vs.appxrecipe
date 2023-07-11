@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-08T18:17:45.660</Modified>
+      <Modified>2023-07-10T15:50:43.372</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-07-08T17:57:01.459</Modified>
+      <Modified>2023-07-10T09:26:00.617</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Shop.runtimeconfig.json">
       <PackagePath>Shop.runtimeconfig.json</PackagePath>
-      <Modified>2023-07-08T16:49:38.685</Modified>
+      <Modified>2023-07-09T11:56:37.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Shop.dll">
       <PackagePath>Shop.dll</PackagePath>
-      <Modified>2023-07-08T18:17:43.175</Modified>
+      <Modified>2023-07-10T15:50:39.233</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Shop.exe</PackagePath>
-      <Modified>2023-07-08T18:17:43.197</Modified>
+      <Modified>2023-07-10T15:50:39.336</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -805,9 +805,9 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2022-11-16T01:34:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\firebaseauthentication.net\3.7.2\lib\netstandard1.1\Firebase.Auth.dll">
+    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\firebaseauthentication.net\4.0.2\lib\netstandard2.0\Firebase.Auth.dll">
       <PackagePath>Firebase.Auth.dll</PackagePath>
-      <Modified>2021-08-05T06:45:32.000</Modified>
+      <Modified>2023-02-06T19:06:56.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\.nuget\packages\firebasedatabase.net\4.2.0\lib\netstandard2.0\Firebase.dll">
       <PackagePath>Firebase.dll</PackagePath>
@@ -1023,7 +1023,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\Documents\GitHub\CarShop\Shop\Shop\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Shop.deps.json">
       <PackagePath>Shop.deps.json</PackagePath>
-      <Modified>2023-07-08T18:17:45.428</Modified>
+      <Modified>2023-07-10T15:50:42.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.81\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

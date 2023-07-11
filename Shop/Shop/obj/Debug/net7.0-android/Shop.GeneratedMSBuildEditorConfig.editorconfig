@@ -50,6 +50,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Shop.Views.AddCarPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AddCarPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AddCarPage.xaml
 
+[C:/Users/david/Documents/GitHub/CarShop/Shop/Shop/Views/EditProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Shop.Views.EditProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditProfilePage.xaml
+
 [C:/Users/david/Documents/GitHub/CarShop/Shop/Shop/Views/JoinPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Shop.Views.JoinPage.xaml

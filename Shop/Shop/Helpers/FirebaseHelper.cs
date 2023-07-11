@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Firebase.Auth;
+using Firebase.Auth.Providers;
+using Firebase.Database;
+using Firebase.Database.Query;
 using Newtonsoft.Json;
 using Shop.Model;
 
@@ -12,13 +15,23 @@ namespace Shop.Helpers
     public class FirebaseHelper
     {
         private static readonly string FirebaseAuthKey = "FreshFirebaseToken";
+        public static FirebaseClient FirebaseClient = new FirebaseClient(baseUrl: "https://car-shop-fde53-default-rtdb.europe-west1.firebasedatabase.app/");
+
+        public static FirebaseAuthClient AuthProvider = new FirebaseAuthClient(new FirebaseAuthConfig
+        {
+            ApiKey = "AIzaSyCXtTb_BIGOuCIZiBqqEZTzGZ8WtmqxEr4",
+            AuthDomain = "car-shop-fde53.firebaseapp.com",
+            Providers = new FirebaseAuthProvider[]
+            {
+                new EmailProvider()
+            },
+        });
 
         public static async Task<bool> Login(string email, string password)
         {
             try
             {
-                var authProvider = new FirebaseAuthProvider(new FirebaseConfig("AIzaSyCXtTb_BIGOuCIZiBqqEZTzGZ8WtmqxEr4"));
-                var auth = await authProvider.SignInWithEmailAndPasswordAsync(email, password);
+                var auth = await AuthProvider.SignInWithEmailAndPasswordAsync(email, password);
                 var serializedAuth = JsonConvert.SerializeObject(auth);
                 Preferences.Set(FirebaseAuthKey, serializedAuth);
                 return true;
@@ -33,20 +46,16 @@ namespace Shop.Helpers
 
         public static void Logout()
         {
-            Preferences.Remove(FirebaseAuthKey);
+            if(AuthProvider.User != null)
+                AuthProvider.SignOut();
         }
 
-        public static bool IsUserLoggedIn()
+        public static Firebase.Auth.FirebaseAuthClient GetUser()
         {
-            return Preferences.ContainsKey(FirebaseAuthKey);
-        }
-
-        public static Firebase.Auth.FirebaseAuth GetUser()
-        {
-            if (IsUserLoggedIn())
+            if (AuthProvider.User != null)
             {
                 var serializedAuth = Preferences.Get(FirebaseAuthKey, "");
-                var auth = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(serializedAuth);
+                var auth = JsonConvert.DeserializeObject<FirebaseAuthClient>(serializedAuth);
                 return auth;
             }
             return null;
@@ -55,12 +64,13 @@ namespace Shop.Helpers
         {
             try
             {
-                var authProvider = new FirebaseAuthProvider(new FirebaseConfig("AIzaSyCXtTb_BIGOuCIZiBqqEZTzGZ8WtmqxEr4"));
-                var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(email, password, displayName);
+                var auth = await AuthProvider.CreateUserWithEmailAndPasswordAsync(email, password, displayName);
+                auth.User.Info.PhotoUrl = "profile.png";
 
                 // Сохранение токена аутентификации
                 var serializedAuth = JsonConvert.SerializeObject(auth);
                 Preferences.Set(FirebaseAuthKey, serializedAuth);
+                await FirebaseClient.Child("users").Child(auth.User.Uid).PutAsync(auth.User);
 
                 return true;
             }
@@ -75,15 +85,14 @@ namespace Shop.Helpers
             var auth = GetUser();
             if (auth != null)
             {
-                var authProvider = new FirebaseAuthProvider(new FirebaseConfig("https://car-shop-fde53-default-rtdb.europe-west1.firebasedatabase.app/"));
-                var freshAuth = await authProvider.RefreshAuthAsync(auth);
-                if (freshAuth.User != null)
+                var freshAuth = AuthProvider.User.Info;
+                if (freshAuth != null)
                 {
                     return new UserProfile
                     {
-                        Email = freshAuth.User.Email,
-                        DisplayName = freshAuth.User.DisplayName,
-                        PhotoUrl = freshAuth.User.PhotoUrl
+                        Email = freshAuth.Email,
+                        DisplayName = freshAuth.DisplayName,
+                        PhotoUrl = freshAuth.PhotoUrl
                     };
                 }
             }

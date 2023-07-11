@@ -2,19 +2,18 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Shop.Views.ProfilePage"
+             xmlns:local="clr-namespace:Shop.Views"
              Title="Профиль"
              NavigationPage.HasNavigationBar="False">
     <ScrollView>
         <StackLayout>
-        <Label 
+            <Label 
             x:Name="AuthInfo"
             Text="{DynamicResource authInfo}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <Image Source="profile.png" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center" />
-
-        <Button BackgroundColor="White" TextColor="{StaticResource Primary}" BorderColor="{StaticResource Primary}" BorderWidth="1" Margin="0,15"
+            <Button BackgroundColor="White" TextColor="{StaticResource Primary}" BorderColor="{StaticResource Primary}" BorderWidth="1" Margin="0,15"
                     Clicked="OnGoToJoin" Text="Войти" FontFamily="OpenSansBold"/>
         <Button Clicked="OnGoToReg" Text="Зарегистрироваться" />
         <Button Clicked="OnLogoutClicked" Text="Выйти" />
@@ -24,8 +23,15 @@
                     <Label Text="Данные профиля:" FontSize="20" />
                     <Label Text="{DynamicResource DisplayName}" FontSize="16" />
                     <Label Text="{DynamicResource Email}" FontSize="16" />
-                    <Image Source="{DynamicResource PhotoUrl}" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center" />
+                    <Grid>
+                        <Image Source="{DynamicResource PhotoUrl}" HeightRequest="64" WidthRequest="64" HorizontalOptions="Center">
+                            <Image.Clip>
+                                <EllipseGeometry RadiusX="32" RadiusY="32" Center="32,32" />
+                            </Image.Clip>
+                        </Image>
+                    </Grid>
                     <Button Clicked="UploadAvatar" Text="Загрузить аватарку" />
+                    <Button Clicked="OnEditProfileClicked" Text="Изменить профиль" />
                 </StackLayout>
             </Frame>
         </StackLayout>

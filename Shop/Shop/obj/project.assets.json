@@ -2,17 +2,20 @@
   "version": 3,
   "targets": {
     "net7.0-android33.0": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -2883,17 +2886,20 @@
       }
     },
     "net7.0-android33.0/android-arm": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -5700,17 +5706,20 @@
       }
     },
     "net7.0-android33.0/android-arm64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -8517,17 +8526,20 @@
       }
     },
     "net7.0-android33.0/android-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -11334,17 +11346,20 @@
       }
     },
     "net7.0-android33.0/android-x86": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -14151,17 +14166,20 @@
       }
     },
     "net7.0-android33.0/iossimulator-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -16968,17 +16986,20 @@
       }
     },
     "net7.0-android33.0/maccatalyst-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -19785,17 +19806,20 @@
       }
     },
     "net7.0-android33.0/win10-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -22602,17 +22626,20 @@
       }
     },
     "net7.0-ios16.1": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -24498,17 +24525,20 @@
       }
     },
     "net7.0-ios16.1/android-arm": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -26701,17 +26731,20 @@
       }
     },
     "net7.0-ios16.1/android-arm64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -28904,17 +28937,20 @@
       }
     },
     "net7.0-ios16.1/android-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -31107,17 +31143,20 @@
       }
     },
     "net7.0-ios16.1/android-x86": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -33310,17 +33349,20 @@
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -35513,17 +35555,20 @@
       }
     },
     "net7.0-ios16.1/maccatalyst-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -37716,17 +37761,20 @@
       }
     },
     "net7.0-ios16.1/win10-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -39915,17 +39963,20 @@
       }
     },
     "net7.0-maccatalyst16.1": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -41811,17 +41862,20 @@
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -44014,17 +44068,20 @@
       }
     },
     "net7.0-maccatalyst16.1/android-arm64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -46217,17 +46274,20 @@
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -48420,17 +48480,20 @@
       }
     },
     "net7.0-maccatalyst16.1/android-x86": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -50623,17 +50686,20 @@
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -52826,17 +52892,20 @@
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -55029,17 +55098,20 @@
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -57228,17 +57300,20 @@
       }
     },
     "net7.0-windows10.0.19041": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -59262,17 +59337,20 @@
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -61575,17 +61653,20 @@
       }
     },
     "net7.0-windows10.0.19041/android-arm64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -63888,17 +63969,20 @@
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -66201,17 +66285,20 @@
       }
     },
     "net7.0-windows10.0.19041/android-x86": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -68514,17 +68601,20 @@
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -70827,17 +70917,20 @@
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -73140,17 +73233,20 @@
       }
     },
     "net7.0-windows10.0.19041/win10-x64": {
-      "FirebaseAuthentication.net/3.7.2": {
+      "FirebaseAuthentication.net/4.0.2": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "13.0.2"
         },
         "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
         }
       },
       "FirebaseDatabase.net/4.2.0": {
@@ -75456,16 +75552,20 @@
     }
   },
   "libraries": {
-    "FirebaseAuthentication.net/3.7.2": {
-      "sha512": "d0Zc0tiE7NutI/jMX/T81LU/rX3HVBH8vtvKTbIeN6BCIQ+wipstz7tm5MnIgAeh4ehqCHTiVuMOHztqfCVCBQ==",
+    "FirebaseAuthentication.net/4.0.2": {
+      "sha512": "805UhOsDsmDPbESOKrT1x31Dx9qLqvt6pEwRyKRVmBAcJxLWFnyoJ7Vzj/TesuzIv0fAXpbnRfzK4LotG+Rksg==",
       "type": "package",
-      "path": "firebaseauthentication.net/3.7.2",
+      "path": "firebaseauthentication.net/4.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "firebaseauthentication.net.3.7.2.nupkg.sha512",
+        "LICENSE.txt",
+        "README.md",
+        "firebase.png",
+        "firebaseauthentication.net.4.0.2.nupkg.sha512",
         "firebaseauthentication.net.nuspec",
-        "lib/netstandard1.1/Firebase.Auth.dll"
+        "lib/netstandard2.0/Firebase.Auth.dll",
+        "lib/netstandard2.0/Firebase.Auth.xml"
       ]
     },
     "FirebaseDatabase.net/4.2.0": {
@@ -83580,7 +83680,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
-      "FirebaseAuthentication.net >= 3.7.2",
+      "FirebaseAuthentication.net >= 4.0.2",
       "FirebaseDatabase.net >= 4.2.0",
       "FirebaseStorage.net >= 1.0.3",
       "Google.Cloud.Firestore >= 3.3.0",
@@ -83603,7 +83703,7 @@
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1"
     ],
     "net7.0-ios16.1": [
-      "FirebaseAuthentication.net >= 3.7.2",
+      "FirebaseAuthentication.net >= 4.0.2",
       "FirebaseDatabase.net >= 4.2.0",
       "FirebaseStorage.net >= 1.0.3",
       "Google.Cloud.Firestore >= 3.3.0",
@@ -83615,7 +83715,7 @@
       "Microsoft.Maui.Graphics >= 7.0.81"
     ],
     "net7.0-maccatalyst16.1": [
-      "FirebaseAuthentication.net >= 3.7.2",
+      "FirebaseAuthentication.net >= 4.0.2",
       "FirebaseDatabase.net >= 4.2.0",
       "FirebaseStorage.net >= 1.0.3",
       "Google.Cloud.Firestore >= 3.3.0",
@@ -83627,7 +83727,7 @@
       "Microsoft.Maui.Graphics >= 7.0.81"
     ],
     "net7.0-windows10.0.19041": [
-      "FirebaseAuthentication.net >= 3.7.2",
+      "FirebaseAuthentication.net >= 4.0.2",
       "FirebaseDatabase.net >= 4.2.0",
       "FirebaseStorage.net >= 1.0.3",
       "Google.Cloud.Firestore >= 3.3.0",
@@ -83709,7 +83809,7 @@
         "dependencies": {
           "FirebaseAuthentication.net": {
             "target": "Package",
-            "version": "[3.7.2, )"
+            "version": "[4.0.2, )"
           },
           "FirebaseDatabase.net": {
             "target": "Package",
@@ -83843,7 +83943,7 @@
         "dependencies": {
           "FirebaseAuthentication.net": {
             "target": "Package",
-            "version": "[3.7.2, )"
+            "version": "[4.0.2, )"
           },
           "FirebaseDatabase.net": {
             "target": "Package",
@@ -83922,7 +84022,7 @@
         "dependencies": {
           "FirebaseAuthentication.net": {
             "target": "Package",
-            "version": "[3.7.2, )"
+            "version": "[4.0.2, )"
           },
           "FirebaseDatabase.net": {
             "target": "Package",
@@ -84002,7 +84102,7 @@
         "dependencies": {
           "FirebaseAuthentication.net": {
             "target": "Package",
-            "version": "[3.7.2, )"
+            "version": "[4.0.2, )"
           },
           "FirebaseDatabase.net": {
             "target": "Package",

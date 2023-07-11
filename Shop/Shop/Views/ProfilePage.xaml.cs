@@ -49,7 +49,7 @@ namespace Shop.Views
 
         public void CheckAuth()
         {
-            if (FirebaseHelper.IsUserLoggedIn() == false)
+            if (FirebaseHelper.AuthProvider.User == null)
             {
                 IsAuth = false;
                 Resources["authInfo"] = "Вы не вошли в аккаунт!";
@@ -57,8 +57,8 @@ namespace Shop.Views
             else
             {
                 IsAuth = true;
-                var userInfo = FirebaseHelper.GetUser();
-                Resources["authInfo"] = userInfo.User.Email;
+                var userInfo = FirebaseHelper.AuthProvider.User;
+                Resources["authInfo"] = userInfo.Info.Email;
             }
             Resources["IsAuth"] = IsAuth;
         }
@@ -67,17 +67,17 @@ namespace Shop.Views
         {
             if (IsAuth)
             {
-                var userInfo = FirebaseHelper.GetUser();
+                var userInfo = FirebaseHelper.FirebaseClient.Child("users").Child(FirebaseHelper.AuthProvider.User.Uid).Child("Info").OnceSingleAsync<Firebase.Auth.UserInfo>().Result;
 
-                Resources["DisplayName"] = userInfo.User.DisplayName;
-                Resources["Email"] = userInfo.User.Email;
-                Resources["PhotoUrl"] = userInfo.User.PhotoUrl;
+                Resources["DisplayName"] = userInfo.DisplayName;
+                Resources["Email"] = userInfo.Email;
+                Resources["PhotoUrl"] = userInfo.PhotoUrl;
             }
             else
             {
                 Resources["DisplayName"] = string.Empty;
                 Resources["Email"] = string.Empty;
-                Resources["PhotoUrl"] = string.Empty;
+                Resources["PhotoUrl"] = "profile.png";
             }
         }
 
@@ -100,14 +100,14 @@ namespace Shop.Views
                         var photoUrl = await firebaseStorage.Child("avatars").Child(fileName).GetDownloadUrlAsync();
 
                         // Update the user's profile with the new photo URL
-                        var userInfo = FirebaseHelper.GetUser();
-                        userInfo.User.PhotoUrl = photoUrl;
+                        var userInfo = FirebaseHelper.AuthProvider.User;
+                        userInfo.Info.PhotoUrl = photoUrl;
 
                         // Save the updated user profile in the database
-                        await firebaseClient.Child("users").Child(userInfo.User.Email).PutAsync(userInfo);
+                        await firebaseClient.Child("users").Child(userInfo.Uid).PutAsync(userInfo);
 
                         // Update the UI with the new photo URL
-                        Resources["PhotoUrl"] = photoUrl;
+                        Resources["PhotoUrl"] = userInfo.Info.PhotoUrl;
                     }
                 }
             }
@@ -116,6 +116,10 @@ namespace Shop.Views
                 // Handle any errors
                 Console.WriteLine($"Error uploading avatar: {ex.Message}");
             }
+        }
+        private async void OnEditProfileClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new EditProfilePage());
         }
     }
 }

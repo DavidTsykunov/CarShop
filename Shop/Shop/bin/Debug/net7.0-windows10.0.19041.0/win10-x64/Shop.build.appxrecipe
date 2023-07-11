@@ -604,7 +604,7 @@
     <AppxPackagedFile Include="C:\Users\david\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.28\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\firebaseauthentication.net\3.7.2\lib\netstandard1.1\Firebase.Auth.dll">
+    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\firebaseauthentication.net\4.0.2\lib\netstandard2.0\Firebase.Auth.dll">
       <PackagePath>Firebase.Auth.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\.nuget\packages\firebasedatabase.net\4.2.0\lib\netstandard2.0\Firebase.dll">
