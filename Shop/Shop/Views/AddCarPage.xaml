@@ -5,27 +5,26 @@
              Title="Добавить Машину"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Resources>
-            <Style TargetType="Label">
-                <Setter Property="FontSize" Value="18" />
-                <Setter Property="Margin" Value="0,10,0,0" />
-            </Style>
-            <Style TargetType="Entry">
-                <Setter Property="HeightRequest" Value="40" />
-                <Setter Property="Margin" Value="0,5,0,0" />
-            </Style>
-            <Style TargetType="Button">
-                <Setter Property="HeightRequest" Value="50" />
-                <Setter Property="Margin" Value="0,20,0,0" />
-            </Style>
-            <Style TargetType="Image">
-                <Setter Property="HeightRequest" Value="200" />
-                <Setter Property="Margin" Value="0,20,0,0" />
-            </Style>
-        </ContentPage.Resources>
-    <ScrollView>
-       
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="Margin" Value="0,15,0,0" />
+        </Style>
+        <Style TargetType="Entry">
+            <Setter Property="HeightRequest" Value="40" />
+            <Setter Property="Margin" Value="0,5,0,0" />
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="HeightRequest" Value="50" />
+            <Setter Property="Margin" Value="0,20,0,0" />
+        </Style>
+        <Style TargetType="Image">
+            <Setter Property="HeightRequest" Value="200" />
+            <Setter Property="Margin" Value="0,20,0,0" />
+        </Style>
+    </ContentPage.Resources>
 
-        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="20">
+    <ScrollView IsVisible="{DynamicResource IsAuth}">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="30">
             <Label Text="Добавить автомобиль" FontSize="24" HorizontalOptions="CenterAndExpand" Margin="0,0,0,20"/>
 
             <Label Text="VIN или номер кузова" />
@@ -76,9 +75,10 @@
             <Label Text="Телефон" />
             <Entry Placeholder="Введите номер телефона" x:Name="PhoneEntry" Keyboard="Telephone" />
     
-            <Button Text="Выбрать фотографии" Clicked="OnSelectPhotosClicked" />
-            <Image x:Name="SelectedImage" />
-
+            <Button x:Name="BtnPhotoSelector" Text="Выбрать фотографии" Clicked="OnSelectPhotosClicked" />
+            <Grid>
+                <Label Text="{DynamicResource carImagesLabel}" TextColor="DarkGray" FontSize="12"/>
+            </Grid>
             <Button Text="Создать объявление" Clicked="OnCreateListingClicked" />
         </StackLayout>
     </ScrollView>

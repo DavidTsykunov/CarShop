@@ -64,6 +64,10 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
             "FirebaseAuthentication.net": {
               "target": "Package",
               "version": "[4.0.2, )"
@@ -76,9 +80,9 @@
               "target": "Package",
               "version": "[1.0.3, )"
             },
-            "Google.Cloud.Firestore": {
+            "Google.Apis": {
               "target": "Package",
-              "version": "[3.3.0, )"
+              "version": "[1.61.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -154,6 +158,10 @@
               "version": "[1.1.0-alpha03, )",
               "autoReferenced": true
             },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.7, )"
+            },
             "Xamarin.Google.Android.Material": {
               "target": "Package",
               "version": "[1.7.0, )",
@@ -198,6 +206,10 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
             "FirebaseAuthentication.net": {
               "target": "Package",
               "version": "[4.0.2, )"
@@ -210,9 +222,9 @@
               "target": "Package",
               "version": "[1.0.3, )"
             },
-            "Google.Cloud.Firestore": {
+            "Google.Apis": {
               "target": "Package",
-              "version": "[3.3.0, )"
+              "version": "[1.61.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -242,6 +254,10 @@
               "target": "Package",
               "version": "[7.0.81, )",
               "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.7, )"
             }
           },
           "imports": [
@@ -277,6 +293,10 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
             "FirebaseAuthentication.net": {
               "target": "Package",
               "version": "[4.0.2, )"
@@ -289,9 +309,9 @@
               "target": "Package",
               "version": "[1.0.3, )"
             },
-            "Google.Cloud.Firestore": {
+            "Google.Apis": {
               "target": "Package",
-              "version": "[3.3.0, )"
+              "version": "[1.61.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -321,6 +341,10 @@
               "target": "Package",
               "version": "[7.0.81, )",
               "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.7, )"
             }
           },
           "imports": [
@@ -357,6 +381,10 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
             "FirebaseAuthentication.net": {
               "target": "Package",
               "version": "[4.0.2, )"
@@ -369,9 +397,9 @@
               "target": "Package",
               "version": "[1.0.3, )"
             },
-            "Google.Cloud.Firestore": {
+            "Google.Apis": {
               "target": "Package",
-              "version": "[3.3.0, )"
+              "version": "[1.61.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -417,6 +445,10 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.7, )"
             }
           },
           "imports": [

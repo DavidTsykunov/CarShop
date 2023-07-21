@@ -604,6 +604,9 @@
     <AppxPackagedFile Include="C:\Users\david\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.28\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\firebaseadmin\2.4.0\lib\netstandard2.0\FirebaseAdmin.dll">
+      <PackagePath>FirebaseAdmin.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\.nuget\packages\firebaseauthentication.net\4.0.2\lib\netstandard2.0\Firebase.Auth.dll">
       <PackagePath>Firebase.Auth.dll</PackagePath>
     </AppxPackagedFile>
@@ -613,58 +616,28 @@
     <AppxPackagedFile Include="C:\Users\david\.nuget\packages\firebasestorage.net\1.0.3\lib\netstandard1.1\Firebase.Storage.dll">
       <PackagePath>Firebase.Storage.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.api.commonprotos\2.7.0\lib\netstandard2.0\Google.Api.CommonProtos.dll">
-      <PackagePath>Google.Api.CommonProtos.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.api.gax\4.3.1\lib\netstandard2.1\Google.Api.Gax.dll">
+    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.api.gax\3.2.0\lib\netstandard2.0\Google.Api.Gax.dll">
       <PackagePath>Google.Api.Gax.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.api.gax.grpc\4.3.1\lib\netstandard2.1\Google.Api.Gax.Grpc.dll">
-      <PackagePath>Google.Api.Gax.Grpc.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.api.gax.rest\3.2.0\lib\netstandard2.0\Google.Api.Gax.Rest.dll">
+      <PackagePath>Google.Api.Gax.Rest.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.apis\1.58.0\lib\netstandard2.0\Google.Apis.dll">
+    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.apis\1.61.0\lib\netstandard2.0\Google.Apis.dll">
       <PackagePath>Google.Apis.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.apis.auth\1.58.0\lib\netstandard2.0\Google.Apis.Auth.PlatformServices.dll">
+    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.apis.auth\1.49.0\lib\netstandard2.0\Google.Apis.Auth.PlatformServices.dll">
       <PackagePath>Google.Apis.Auth.PlatformServices.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.apis.auth\1.58.0\lib\netstandard2.0\Google.Apis.Auth.dll">
+    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.apis.auth\1.49.0\lib\netstandard2.0\Google.Apis.Auth.dll">
       <PackagePath>Google.Apis.Auth.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.apis.core\1.58.0\lib\netstandard2.0\Google.Apis.Core.dll">
+    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.apis.core\1.61.0\lib\netstandard2.0\Google.Apis.Core.dll">
       <PackagePath>Google.Apis.Core.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.cloud.firestore\3.3.0\lib\netstandard2.1\Google.Cloud.Firestore.dll">
-      <PackagePath>Google.Cloud.Firestore.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.cloud.firestore.v1\3.3.0\lib\netstandard2.1\Google.Cloud.Firestore.V1.dll">
-      <PackagePath>Google.Cloud.Firestore.V1.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.cloud.location\2.0.0\lib\netstandard2.1\Google.Cloud.Location.dll">
-      <PackagePath>Google.Cloud.Location.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.longrunning\3.0.0\lib\netstandard2.1\Google.LongRunning.dll">
-      <PackagePath>Google.LongRunning.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\google.protobuf\3.21.0\lib\net5.0\Google.Protobuf.dll">
-      <PackagePath>Google.Protobuf.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\grpc.auth\2.51.0\lib\netstandard2.0\Grpc.Auth.dll">
-      <PackagePath>Grpc.Auth.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\grpc.core.api\2.51.0\lib\netstandard2.1\Grpc.Core.Api.dll">
-      <PackagePath>Grpc.Core.Api.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\grpc.net.client\2.51.0\lib\net7.0\Grpc.Net.Client.dll">
-      <PackagePath>Grpc.Net.Client.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\grpc.net.common\2.51.0\lib\net7.0\Grpc.Net.Common.dll">
-      <PackagePath>Grpc.Net.Common.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\.nuget\packages\litedb\4.1.4\lib\netstandard2.0\LiteDB.dll">
       <PackagePath>LiteDB.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\microsoft.bcl.asyncinterfaces\6.0.0\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll">
+    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\microsoft.bcl.asyncinterfaces\1.0.0\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
@@ -745,17 +718,17 @@
     <AppxPackagedFile Include="C:\Users\david\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\newtonsoft.json\13.0.2\lib\net6.0\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\system.linq.async\6.0.1\lib\net6.0\System.Linq.Async.dll">
-      <PackagePath>System.Linq.Async.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\.nuget\packages\system.reactive\4.0.0\lib\netstandard2.0\System.Reactive.dll">
       <PackagePath>System.Reactive.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\.nuget\packages\system.runtime.interopservices.windowsruntime\4.3.0\lib\netstandard1.3\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\.nuget\packages\xamarin.essentials\1.7.7\lib\netstandard2.0\Xamarin.Essentials.dll">
+      <PackagePath>Xamarin.Essentials.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\david\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>

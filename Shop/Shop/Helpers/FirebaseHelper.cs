@@ -5,9 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using Firebase.Auth;
 using Firebase.Auth.Providers;
+using Firebase.Auth.Repository;
 using Firebase.Database;
 using Firebase.Database.Query;
 using Firebase.Storage;
+using FirebaseAdmin;
+using FirebaseAdmin.Auth;
 using Newtonsoft.Json;
 using Shop.Model;
 
@@ -27,6 +30,7 @@ namespace Shop.Helpers
                 new EmailProvider()
             },
         });
+        public static FileUserRepository FirebaseRepository = new FileUserRepository("Firebase\\Repository");
 
         public static async Task<bool> Login(string email, string password)
         {
@@ -65,7 +69,8 @@ namespace Shop.Helpers
         {
             try
             {
-                var auth = await AuthProvider.CreateUserWithEmailAndPasswordAsync(email, password, displayName);
+                var auth = await AuthProvider.CreateUserWithEmailAndPasswordAsync(email, password, displayName);                
+
                 auth.User.Info.PhotoUrl = "profile.png";
 
                 // Сохранение токена аутентификации
@@ -81,24 +86,24 @@ namespace Shop.Helpers
                 return false;
             }
         }
-        public static async Task<UserProfile> GetUserProfile()
+        public static async Task<UserRecord> FindUserByUid(string uid)
         {
-            var auth = GetUser();
-            if (auth != null)
+            try
             {
-                var freshAuth = AuthProvider.User.Info;
-                if (freshAuth != null)
+                var auth = FirebaseAuth.DefaultInstance;
+                if (auth != null)
                 {
-                    return new UserProfile
-                    {
-                        Email = freshAuth.Email,
-                        DisplayName = freshAuth.DisplayName,
-                        PhotoUrl = freshAuth.PhotoUrl
-                    };
+                    var user = await auth.GetUserAsync(uid);
+                    Console.WriteLine("Найден пользователь: " + JsonConvert.SerializeObject(user));
+                    return user;
                 }
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Ошибка при поиске пользователя: " + ex.Message);
+            }
+
             return null;
         }
-
     }
 }

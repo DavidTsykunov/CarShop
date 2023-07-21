@@ -1,4 +1,7 @@
 ﻿using Firebase.Database;
+using FirebaseAdmin;
+using Google.Apis.Auth.OAuth2;
+using Shop.Helpers;
 
 namespace Shop;
 
@@ -9,7 +12,14 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
+        //Preferences.Clear();
+
         Firebase = new FirebaseClient("https://car-shop-fde53-default-rtdb.europe-west1.firebasedatabase.app/");
+        FirebaseApp.Create(new AppOptions()
+        {
+            Credential = GoogleCredential.GetApplicationDefault(),
+        });
+
 
         Application.Current.UserAppTheme = AppTheme.Light;
         MainPage = new NavigationPage(new AppShell());

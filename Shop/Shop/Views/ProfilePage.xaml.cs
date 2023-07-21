@@ -10,7 +10,7 @@ namespace Shop.Views
 {
     public partial class ProfilePage : ContentPage
     {
-        public static bool IsAuth = false;
+        public static bool IsAuth;
 
         public UserProfile UserProfile { get; set; }
 
@@ -31,9 +31,10 @@ namespace Shop.Views
             await Navigation.PushModalAsync(new JoinPage());
         }
 
-        private async void OnLogoutClicked(object sender, EventArgs e)
+        private void OnLogoutClicked(object sender, EventArgs e)
         {
             FirebaseHelper.Logout();
+            AppSettings.IsLoggedIn = false;
             CheckAuth();
         }
 
@@ -46,7 +47,7 @@ namespace Shop.Views
 
         public void CheckAuth()
         {
-            if (FirebaseHelper.AuthProvider.User == null)
+            if (!AppSettings.IsLoggedIn)
             {
                 IsAuth = false;
                 Resources["authInfo"] = "Вы не вошли в аккаунт!";
@@ -54,8 +55,8 @@ namespace Shop.Views
             else
             {
                 IsAuth = true;
-                var userInfo = FirebaseHelper.AuthProvider.User;
-                Resources["authInfo"] = userInfo.Info.Email;
+                var userInfo = FirebaseHelper.FirebaseRepository.ReadUser();
+                Resources["authInfo"] = userInfo.Item1.Email;
             }
             Resources["IsAuth"] = IsAuth;
         }
@@ -76,6 +77,8 @@ namespace Shop.Views
                 Resources["Email"] = string.Empty;
                 Resources["PhotoUrl"] = "profile.png";
             }
+
+            AppSettings.IsLoggedIn = IsAuth; // Сохранение состояния авторизации
         }
 
         private async void UploadAvatar(object sender, EventArgs e)

@@ -27,6 +27,8 @@ namespace Shop.Views
                 if (success)
                 {
                     // ѕользователь успешно вошел в систему, перенаправл€ем на страницу профил€
+                    AppSettings.IsLoggedIn = true;
+                    FirebaseHelper.FirebaseRepository.SaveUser(FirebaseHelper.AuthProvider.User);
                     await Navigation.PopModalAsync();
                 }
                 else
